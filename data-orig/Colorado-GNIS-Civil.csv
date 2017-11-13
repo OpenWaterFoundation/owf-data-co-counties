@@ -1,0 +1,560 @@
+Feature Name,ID,Class,County,State,Latitude,Longitude,Ele(ft),Map,BGN Date,Entry Date
+Adams County,198116,Civil,Adams,CO,395225N,1042016W,5167,Roper School,,1-Feb-93
+Agate Division,1935392,Civil,Elbert,CO,392354N,1035708W,5584,Agate,,26-Sep-01
+Aguilar Division,1935393,Civil,Las Animas,CO,373128N,1043057W,6368,Pryor SE,,26-Sep-01
+Akron Division,1935394,Civil,Washington,CO,401119N,1031554W,4629,Fremont Butte,,26-Sep-01
+Alamosa County,198117,Civil,Alamosa,CO,373422N,1054718W,7533,Hooper SE,,1-Feb-93
+Alamosa Division,1935395,Civil,Alamosa,CO,372805N,1054954W,7536,Alamosa East,,26-Sep-01
+Antonito Division,1935396,Civil,Conejos,CO,370429N,1055344W,7739,Lobatos,,26-Sep-01
+Arapahoe County,198118,Civil,Arapahoe,CO,393859N,1042021W,5558,Strasburg,,1-Feb-93
+Arboles Division,1935397,Civil,Archuleta,CO,371303N,1071947W,6945,Chimney Rock,,26-Sep-01
+Archuleta County,198119,Civil,Archuleta,CO,371137N,1070254W,7080,Oakbrush Hill,,1-Feb-93
+Arriba Division,1935398,Civil,Lincoln,CO,392530N,1031924W,5174,Arriba NE,,26-Sep-01
+Aspen Division,1935400,Civil,Pitkin,CO,391205N,1064300W,9964,Thimble Rock,,26-Sep-01
+Ault Division,1935401,Civil,Weld,CO,404658N,1044400W,5387,Eastman Creek South,,26-Sep-01
+Avondale Division,1935402,Civil,Pueblo,CO,381320N,1042251W,4619,Vineland,,26-Sep-01
+Baca County,198120,Civil,Baca,CO,371909N,1023338W,4354,Bisonte,,1-Feb-93
+Bald Mountain Division,1935403,Civil,Boulder,CO,400100N,1052822W,8671,Gold Hill,,26-Sep-01
+Basalt Division,1935404,Civil,Eagle,CO,392516N,1065110W,11256,Red Creek,,26-Sep-01
+Bayfield Division,1935405,Civil,La Plata,CO,372248N,1073513W,7716,Vallecito Reservoir,,26-Sep-01
+Beaubien and Miranda Grant,169597,Civil,Colfax,NM,364124N,1044919W,7296,Dawson,,31-Aug-92
+Bent County,198121,Civil,Bent,CO,375718N,1030418W,4026,Toonerville NE,,1-Feb-93
+Berthoud Division,1935406,Civil,Larimer,CO,401833N,1050907W,5197,Carter Lake Reservoir,,26-Sep-01
+Black Forest-Peyton Division,1935407,Civil,El Paso,CO,390238N,1042630W,6847,Peyton,,26-Sep-01
+Blanca Division,1935408,Civil,Costilla,CO,372639N,1052403W,8136,Fort Garland,,26-Sep-01
+Boulder County,198122,Civil,Boulder,CO,400533N,1052128W,6785,Boulder,,1-Feb-93
+Boulder Division,1935409,Civil,Boulder,CO,400028N,1051400W,5266,Niwot,,26-Sep-01
+Branson Division,1935410,Civil,Las Animas,CO,371029N,1035040W,5728,Box Ranch,,26-Sep-01
+Breckenridge Division,1935411,Civil,Summit,CO,393040N,1060228W,10029,Frisco,,26-Sep-01
+Brighton Division,1935412,Civil,Adams,CO,395631N,1044719W,5082,Brighton,,26-Sep-01
+Broomfield County,1945881,Civil,Broomfield,CO,395715N,1050310W,5348,Lafayette,,14-Nov-01
+Broomfield Division,1945898,Civil,Broomfield,CO,395715N,1050310W,5348,Lafayette,,15-Nov-01
+Brush Division,1935413,Civil,Morgan,CO,401441N,1033635W,4236,Miller Ranch,,26-Sep-01
+Buena Vista Division,1935414,Civil,Chaffee,CO,385255N,1061427W,10108,Harvard Lakes,,26-Sep-01
+Burlington Division,1935415,Civil,Kit Carson,CO,391832N,1021417W,4134,Peconic,,26-Sep-01
+Campo Division,1935416,Civil,Baca,CO,370638N,1023416W,4327,Campo,,26-Sep-01
+Castle Rock Division,1935418,Civil,Douglas,CO,391528N,1045446W,6831,Dawson Butte,,26-Sep-01
+Cañon City Division,1935417,Civil,Fremont,CO,382716N,1051353W,5358,Canon City,,26-Sep-01
+Cedaredge Division,1935419,Civil,Delta,CO,385618N,1075744W,6457,Cedaredge,,26-Sep-01
+Center Division,1935420,Civil,Saguache,CO,374928N,1061811W,8012,Twin Mountains SE,,26-Sep-01
+Central City Division,1935421,Civil,Gilpin,CO,395127N,1053121W,9567,Central City,,26-Sep-01
+Central Jefferson Division,1935422,Civil,Jefferson,CO,393731N,1051918W,7247,Evergreen,,26-Sep-01
+Chaffee County,198123,Civil,Chaffee,CO,384449N,1061139W,10174,Mount Antero,,1-Feb-93
+Cheraw Division,1935423,Civil,Otero,CO,380658N,1033047W,4140,Cheraw,,26-Sep-01
+Cheyenne County,198124,Civil,Cheyenne,CO,384941N,1023612W,4383,Firstview,,1-Feb-93
+Cheyenne Mountain Division,1935424,Civil,El Paso,CO,384213N,1045326W,7966,Mount Big Chief,,26-Sep-01
+Cheyenne Wells Division,1935425,Civil,Cheyenne,CO,384951N,1021738W,4173,Cheyenne Wells,,26-Sep-01
+City of Alamosa,2409673,Civil,Alamosa,CO,372832N,1055237W,7546,Alamosa West,,11-Mar-08
+City of Arvada,2409737,Civil,Jefferson,CO,394955N,1050903W,5528,Golden,,11-Mar-08
+City of Aspen,2409743,Civil,Pitkin,CO,391142N,1065013W,7926,Aspen,,11-Mar-08
+City of Aurora,2409757,Civil,Arapahoe,CO,394156N,1044714W,5568,Fitzsimons,,11-Mar-08
+City of Black Hawk,2409856,Civil,Gilpin,CO,394815N,1052940W,8189,Black Hawk,,11-Mar-08
+City of Boulder,2409883,Civil,Boulder,CO,400138N,1051505W,5276,Boulder,,11-Mar-08
+City of Brighton,2409911,Civil,Adams,CO,395817N,1044747W,5023,Brighton,,11-Mar-08
+City of Broomfield,2409919,Civil,Broomfield,CO,395715N,1050310W,5348,Lafayette,,11-Mar-08
+City of Brush,2409926,Civil,Morgan,CO,401529N,1033756W,4239,Brush West,,11-Mar-08
+City of Burlington,2409946,Civil,Kit Carson,CO,391816N,1021617W,4170,Burlington,,11-Mar-08
+City of Castle Pines,2500981,Civil,Douglas,CO,392745N,1045214W,6329,Castle Rock North,,3-Oct-08
+City of Cañon City,2409976,Civil,Fremont,CO,382635N,1051312W,5312,Canon City,,11-Mar-08
+City of Centennial,2409422,Civil,Arapahoe,CO,393533N,1045203W,5722,Parker,,11-Mar-08
+City of Central City,2409427,Civil,Gilpin,CO,394747N,1053055W,8583,Central City,,11-Mar-08
+City of Cherry Hills Village,2409443,Civil,Arapahoe,CO,393815N,1045653W,5423,Englewood,,11-Mar-08
+City of Colorado Springs,2410198,Civil,El Paso,CO,385202N,1044538W,6322,Colorado Springs,,11-Mar-08
+City of Commerce City,2410212,Civil,Adams,CO,394829N,1045436W,5194,Commerce City,,11-Mar-08
+City of Cortez,2410236,Civil,Montezuma,CO,372101N,1083437W,6181,Cortez,,11-Mar-08
+City of Craig,2410255,Civil,Moffat,CO,403101N,1073320W,6194,Craig,,11-Mar-08
+City of Cripple Creek,2410265,Civil,Teller,CO,384446N,1051103W,9544,Cripple Creek South,,11-Mar-08
+City of Dacono,2410283,Civil,Weld,CO,400342N,1045700W,5102,Frederick,,11-Mar-08
+City of Delta,2410319,Civil,Delta,CO,384522N,1080439W,4931,North Delta,,11-Mar-08
+City of Denver,2410324,Civil,Denver,CO,394544N,1045233W,5282,Commerce City,,11-Mar-08
+City of Durango,2410374,Civil,La Plata,CO,371628N,1075213W,6857,Durango East,,11-Mar-08
+City of Edgewater,2410399,Civil,Jefferson,CO,394503N,1050345W,5367,Arvada,,11-Mar-08
+City of Englewood,2410441,Civil,Arapahoe,CO,393849N,1045939W,5348,Englewood,,11-Mar-08
+City of Evans,2410467,Civil,Weld,CO,402044N,1044619W,4682,Milliken,,11-Mar-08
+City of Federal Heights,2410493,Civil,Adams,CO,395154N,1050056W,5413,Arvada,,11-Mar-08
+City of Florence,2410510,Civil,Fremont,CO,382255N,1050642W,5226,Florence,,11-Mar-08
+City of Fort Collins,2410526,Civil,Larimer,CO,403253N,1050357W,4997,Fort Collins,,11-Mar-08
+City of Fort Lupton,2410528,Civil,Weld,CO,400457N,1044806W,4918,Fort Lupton,,11-Mar-08
+City of Fort Morgan,2410529,Civil,Morgan,CO,401517N,1034729W,4318,Fort Morgan,,11-Mar-08
+City of Fountain,2410535,Civil,El Paso,CO,384057N,1044223W,5545,Fountain,,11-Mar-08
+City of Fruita,2410553,Civil,Mesa,CO,390914N,1084342W,4508,Fruita,,11-Mar-08
+City of Glendale,2410598,Civil,Arapahoe,CO,394213N,1045606W,5351,Englewood,,11-Mar-08
+City of Glenwood Springs,2410605,Civil,Garfield,CO,393209N,1071927W,5827,Glenwood Springs,,11-Mar-08
+City of Golden,2410611,Civil,Jefferson,CO,394426N,1051244W,5791,Morrison,,11-Mar-08
+City of Grand Junction,2410631,Civil,Mesa,CO,390516N,1083403W,4652,Grand Junction,,11-Mar-08
+City of Greeley,2410654,Civil,Weld,CO,402454N,1044611W,4865,Bracewell,,11-Mar-08
+City of Greenwood Village,2410661,Civil,Arapahoe,CO,393655N,1045447W,5633,Highlands Ranch,,11-Mar-08
+City of Gunnison,2410674,Civil,Gunnison,CO,383244N,1065521W,7703,Gunnison,,11-Mar-08
+City of Holyoke,2410781,Civil,Phillips,CO,403457N,1021755W,3734,Holyoke,,11-Mar-08
+City of Idaho Springs,2410092,Civil,Clear Creek,CO,394440N,1053003W,7874,Idaho Springs,,11-Mar-08
+City of La Junta,2411574,Civil,Otero,CO,375847N,1033250W,4121,La Junta,,11-Mar-08
+City of Lafayette,2411592,Civil,Boulder,CO,395940N,1050558W,5259,Lafayette,,11-Mar-08
+City of Lakewood,2411614,Civil,Jefferson,CO,394152N,1050701W,5656,Fort Logan,,11-Mar-08
+City of Lamar,2411617,Civil,Prowers,CO,380426N,1023656W,3638,Lamar East,,11-Mar-08
+City of Las Animas,2411628,Civil,Bent,CO,380410N,1031325W,3898,Las Animas,,11-Mar-08
+City of Leadville,2411641,Civil,Lake,CO,391448N,1061737W,10111,Leadville South,,11-Mar-08
+City of Littleton,2410845,Civil,Arapahoe,CO,393528N,1050110W,5410,Littleton,,11-Mar-08
+City of Lone Tree,2410864,Civil,Douglas,CO,393151N,1045216W,6001,Parker,,11-Mar-08
+City of Longmont,2410869,Civil,Boulder,CO,401009N,1050559W,4984,Longmont,,11-Mar-08
+City of Louisville,2410884,Civil,Boulder,CO,395815N,1050839W,5400,Louisville,,11-Mar-08
+City of Loveland,2410886,Civil,Larimer,CO,402501N,1050343W,4997,Loveland,,11-Mar-08
+City of Manitou Springs,2411021,Civil,El Paso,CO,385127N,1045445W,6296,Manitou Springs,,11-Mar-08
+City of Monte Vista,2411143,Civil,Rio Grande,CO,373444N,1060901W,7664,Monte Vista,,11-Mar-08
+City of Montrose,2411151,Civil,Montrose,CO,382808N,1075133W,5860,Montrose East,,11-Mar-08
+City of Northglenn,2411280,Civil,Adams,CO,395439N,1045842W,5364,Eastlake,,11-Mar-08
+City of Ouray,2411342,Civil,Ouray,CO,380139N,1074024W,7690,Ouray,,11-Mar-08
+City of Pueblo,2411501,Civil,Pueblo,CO,381613N,1043647W,4665,Northeast Pueblo,,11-Mar-08
+City of Rifle,2410947,Civil,Garfield,CO,393210N,1074619W,5518,Rifle,,11-Mar-08
+City of Rocky Ford,2410983,Civil,Otero,CO,380300N,1034321W,4186,Rocky Ford,,11-Mar-08
+City of Salida,2411766,Civil,Chaffee,CO,383149N,1055956W,7096,Salida East,,11-Mar-08
+City of Sheridan,2411885,Civil,Arapahoe,CO,393848N,1050105W,5285,Fort Logan,,11-Mar-08
+City of Steamboat Springs,2411976,Civil,Routt,CO,402839N,1064924W,6850,Steamboat Springs,,11-Mar-08
+City of Sterling,2411978,Civil,Logan,CO,403715N,1031131W,3930,Sterling South,,11-Mar-08
+City of Thornton,2412064,Civil,Adams,CO,395513N,1045640W,5213,Eastlake,,11-Mar-08
+City of Trinidad,2412094,Civil,Las Animas,CO,371029N,1042927W,6027,Trinidad East,,11-Mar-08
+City of Victor,2412153,Civil,Teller,CO,384232N,1050831W,9652,Cripple Creek South,,11-Mar-08
+City of Walsenburg,2412176,Civil,Huerfano,CO,373750N,1044654W,6306,Walsenburg North,,11-Mar-08
+City of Westminster,2412237,Civil,Jefferson,CO,395301N,1050346W,5321,Lafayette,,11-Mar-08
+City of Wheat Ridge,2412248,Civil,Jefferson,CO,394622N,1050611W,5348,Arvada,,11-Mar-08
+City of Woodland Park,2412303,Civil,Teller,CO,385955N,1050334W,8491,Woodland Park,,11-Mar-08
+City of Wray,2412310,Civil,Yuma,CO,400448N,1021340W,3524,Wray,,11-Mar-08
+City of Yuma,2412329,Civil,Yuma,CO,400726N,1024259W,4131,Yuma South,,11-Mar-08
+Clear Creek County,198125,Civil,Clear Creek,CO,394121N,1053840W,9534,Georgetown,,1-Feb-93
+Clifton Division,1935426,Civil,Mesa,CO,390529N,1082548W,4705,Clifton,,26-Sep-01
+Cochetopa Division,1935427,Civil,Saguache,CO,381459N,1064408W,9055,Cochetopa Park,,26-Sep-01
+Collbran Division,1935428,Civil,Mesa,CO,391123N,1075339W,7506,Collbran,,26-Sep-01
+Colorado City-Rye Division,1935429,Civil,Pueblo,CO,375852N,1044828W,5791,Colorado City,,26-Sep-01
+Colorado Springs Division,1935430,Civil,El Paso,CO,385150N,1044708W,6293,Colorado Springs,,26-Sep-01
+Commerce City Division,1935431,Civil,Adams,CO,394949N,1045241W,5194,Commerce City,,26-Sep-01
+Conejos County,198126,Civil,Conejos,CO,371202N,1061130W,8520,Vicente Canyon,,1-Feb-93
+Cope Division,1935433,Civil,Washington,CO,394610N,1030011W,4580,Elba SE,,26-Sep-01
+Cortez Division,1935434,Civil,Montezuma,CO,372211N,1084230W,6568,Mud Creek,,26-Sep-01
+Costilla County,198127,Civil,Costilla,CO,371641N,1052542W,8061,Fort Garland SW,,1-Feb-93
+Cotopaxi Division,1935435,Civil,Fremont,CO,382930N,1053609W,8356,Echo,,26-Sep-01
+Craig Division,1935436,Civil,Moffat,CO,403444N,1073944W,6745,Pine Ridge,,26-Sep-01
+Creede Division,1935437,Civil,Mineral,CO,374008N,1065527W,11778,Spar City,,26-Sep-01
+Crested Butte Division,1935438,Civil,Gunnison,CO,385219N,1065429W,8963,Crested Butte,,26-Sep-01
+Cripple Creek Division,1935439,Civil,Teller,CO,384421N,1050820W,10561,Cripple Creek South,,26-Sep-01
+Crook Division,1935440,Civil,Logan,CO,405433N,1024913W,3816,Twin Buttes,,26-Sep-01
+Crowley County,198128,Civil,Crowley,CO,381936N,1034705W,4560,Nero Hill,,1-Feb-93
+Custer County,198129,Civil,Custer,CO,380631N,1052203W,8943,Rosita,,1-Feb-93
+De Beque Division,1935441,Civil,Mesa,CO,391625N,1082007W,5633,Wagon Track Ridge,,26-Sep-01
+Del Norte Division,1935442,Civil,Rio Grande,CO,373527N,1062944W,9741,Horseshoe Mountain,,26-Sep-01
+Delta County,198130,Civil,Delta,CO,385141N,1075146W,6279,Lazear,,1-Feb-93
+Delta Division,1935443,Civil,Delta,CO,384520N,1080820W,4918,Point Creek,,26-Sep-01
+Denver County,198131,Civil,Denver,CO,394544N,1045233W,5282,Commerce City,,1-Feb-93
+Denver Division,1935444,Civil,Denver,CO,394544N,1045233W,5282,Commerce City,,26-Sep-01
+Dinosaur Division,1935399,Civil,Moffat,CO,402039N,1083754W,6611,Skull Creek,,26-Sep-01
+Divide Division,1935445,Civil,Teller,CO,385844N,1051038W,9114,Divide,,26-Sep-01
+Dolores County,198132,Civil,Dolores,CO,374506N,1083102W,8133,Glade Mountain,,1-Feb-93
+Dolores Division,1935446,Civil,Montezuma,CO,373243N,1082035W,7999,Stoner,,26-Sep-01
+Douglas County,198133,Civil,Douglas,CO,391947N,1045546W,6384,Dawson Butte,,1-Feb-93
+Dove Creek Division,1935447,Civil,Dolores,CO,374344N,1085440W,6640,Champagne Spring,,26-Sep-01
+Durango Division,1935448,Civil,La Plata,CO,372514N,1075318W,8458,Monument Hill,,26-Sep-01
+Durango High School District,1794965,Civil,La Plata,CO,371635N,1075244W,6535,Durango West,,18-May-98
+Durango Southwest Division,1935449,Civil,La Plata,CO,370615N,1080137W,6850,Pinkerton Mesa,,26-Sep-01
+Eads Division,1935450,Civil,Kiowa,CO,382631N,1024912W,4245,Eads,,26-Sep-01
+Eagle County,198134,Civil,Eagle,CO,393740N,1064143W,8419,Wolcott,,1-Feb-93
+Eagle-Gypsum Division,1935451,Civil,Eagle,CO,394236N,1064821W,8297,Eagle,,26-Sep-01
+East Adams Division,1935452,Civil,Adams,CO,395213N,1040938W,4947,Leader SW,,26-Sep-01
+East Arapahoe Division,1935453,Civil,Arapahoe,CO,393915N,1041312W,5325,Byers,,26-Sep-01
+El Paso County,198135,Civil,El Paso,CO,384956N,1043132W,6361,Corral Bluffs,,1-Feb-93
+Elbert County,198136,Civil,Elbert,CO,391712N,1040809W,5909,Bijou SW,,1-Feb-93
+Elizabeth Division,1935455,Civil,Elbert,CO,392132N,1042654W,6489,Kiowa,,26-Sep-01
+Elsmere Division,1935456,Civil,El Paso,CO,385329N,1043802W,6657,Falcon NW,,26-Sep-01
+Erie-Frederick Division,1935457,Civil,Weld,CO,400518N,1045804W,4977,Frederick,,26-Sep-01
+Estes Park Division,1935458,Civil,Larimer,CO,402344N,1053319W,8379,Estes Park,,26-Sep-01
+Fairplay Division,1935459,Civil,Park,CO,391528N,1054644W,9613,Milligan Lakes,,26-Sep-01
+Flagler Division,1935460,Civil,Kit Carson,CO,391811N,1025702W,4810,Flagler Reservoir,,26-Sep-01
+Fleming Division,1935461,Civil,Logan,CO,403706N,1025440W,4334,Leroy,,26-Sep-01
+Florence Division,1935462,Civil,Fremont,CO,381947N,1050909W,5666,Rockvale,,26-Sep-01
+Fort Collins Division,1935463,Civil,Larimer,CO,403458N,1050627W,5052,Fort Collins,,26-Sep-01
+Fort Lupton Division,1935464,Civil,Weld,CO,400426N,1044920W,4898,Fort Lupton,,26-Sep-01
+Fort Morgan Division,1935465,Civil,Morgan,CO,401809N,1034919W,4449,Fort Morgan,,26-Sep-01
+Fountain Division,1935466,Civil,El Paso,CO,383737N,1044522W,5627,Cheyenne Mountain,,26-Sep-01
+Fowler Division,1935467,Civil,Otero,CO,380700N,1040045W,4347,Hardesty Reservoir,,26-Sep-01
+Fremont County,198137,Civil,Fremont,CO,382823N,1052623W,6384,McIntyre Hills,,1-Feb-93
+Fruita Division,1935468,Civil,Mesa,CO,391448N,1084612W,4705,Mack,,26-Sep-01
+Gardner Division,1935469,Civil,Huerfano,CO,374720N,1051442W,7434,Gardner,,26-Sep-01
+Garfield County,198138,Civil,Garfield,CO,393558N,1075414W,8989,Anvil Points,,1-Feb-93
+Georgetown Division,1935470,Civil,Clear Creek,CO,394200N,1054456W,10026,Georgetown,,26-Sep-01
+Gilpin County,198139,Civil,Gilpin,CO,395127N,1053121W,9567,Central City,,1-Feb-93
+Glade Park-Gateway Division,1935472,Civil,Mesa,CO,384751N,1084446W,9081,Snyder Flats,,26-Sep-01
+Glenwood Springs Division,1935473,Civil,Garfield,CO,394334N,1071450W,10522,Broken Rib Creek,,26-Sep-01
+Golden Division,1935474,Civil,Jefferson,CO,394726N,1051738W,7346,Ralston Buttes,,26-Sep-01
+Granada Division,1935475,Civil,Prowers,CO,380936N,1022105W,3707,Granada NE,,26-Sep-01
+Granby Division,1935476,Civil,Grand,CO,400709N,1055120W,8343,Strawberry Lake,,26-Sep-01
+Grand County,198140,Civil,Grand,CO,400609N,1060706W,8199,Hot Sulphur Springs,,1-Feb-93
+Grand Junction Division,1935477,Civil,Mesa,CO,390444N,1083503W,4554,Grand Junction,,26-Sep-01
+Greeley Division,1935479,Civil,Weld,CO,402639N,1044137W,4652,Greeley,,26-Sep-01
+Grover Division,1935480,Civil,Weld,CO,405042N,1041737W,5052,Hereford SE,,26-Sep-01
+Gunnison County,198141,Civil,Gunnison,CO,384000N,1070154W,9190,Squirrel Creek,,1-Feb-93
+Gunnison Division,1935481,Civil,Gunnison,CO,383956N,1064301W,9790,Crystal Creek,,26-Sep-01
+Gunnison Watershed School District,1795281,Civil,Gunnison,CO,383249N,1065547W,7707,Gunnison,,18-May-98
+Haswell Division,1935482,Civil,Kiowa,CO,382443N,1031455W,4344,Haswell,,26-Sep-01
+Haxtun Division,1935483,Civil,Phillips,CO,403545N,1023134W,3953,Haxtun SE,,26-Sep-01
+Hayden Division,1935484,Civil,Routt,CO,403727N,1071112W,7441,Hooker Mountain,,26-Sep-01
+Henderson,196549,Civil,Adams,CO,395515N,1045302W,5029,Eastlake,1-Jan-65,1-Jul-90
+Hinsdale County,198142,Civil,Hinsdale,CO,374917N,1071801W,10643,Finger Mesa,,1-Feb-93
+Holly Division,1935485,Civil,Prowers,CO,380852N,1020827W,3540,Holly NW,,26-Sep-01
+Holyoke Division,1935486,Civil,Phillips,CO,403532N,1021313W,3694,Amherst SW,,26-Sep-01
+Hotchkiss Division,1935487,Civil,Delta,CO,384851N,1074321W,5551,Hotchkiss,,26-Sep-01
+Huerfano County,198143,Civil,Huerfano,CO,374105N,1045738W,6650,Black Hills,,1-Feb-93
+Huerfano Valley Division,1935488,Civil,Pueblo,CO,380009N,1041929W,4882,Chicos Well,,26-Sep-01
+Hugo Division,1935489,Civil,Lincoln,CO,390359N,1032523W,5023,Hugo SW,,26-Sep-01
+Idaho Springs Division,1935490,Civil,Clear Creek,CO,394039N,1053204W,10761,Idaho Springs,,26-Sep-01
+Idalia-Joes Division,1935572,Civil,Yuma,CO,394127N,1022123W,4029,Idalia,,26-Sep-01
+Ignacio Division,1935491,Civil,La Plata,CO,370629N,1073625W,6588,Tiffany,,26-Sep-01
+Jackson County,198144,Civil,Jackson,CO,403959N,1062034W,8127,Walden,,1-Feb-93
+Jefferson County,198145,Civil,Jefferson,CO,393511N,1051502W,7405,Conifer,,1-Feb-93
+Johnstown-Milliken Division,1935492,Civil,Weld,CO,401735N,1045625W,4990,Johnstown,,26-Sep-01
+Julesburg Division,1935493,Civil,Sedgwick,CO,405751N,1022903W,3602,Ovid,,26-Sep-01
+Karval Division,1935494,Civil,Lincoln,CO,384226N,1033537W,5194,Karval,,26-Sep-01
+Keenesburg-Hudson Division,1935495,Civil,Weld,CO,400839N,1042503W,4751,Tampa,,26-Sep-01
+Kersey-Gill Division,1935496,Civil,Weld,CO,402715N,1042335W,4783,Barnesville,,26-Sep-01
+Kim Division,1935497,Civil,Las Animas,CO,371948N,1032143W,5577,Kim North,,26-Sep-01
+Kiowa County,198146,Civil,Kiowa,CO,382558N,1024425W,4111,Alkali Lake,,1-Feb-93
+Kit Carson County,198147,Civil,Kit Carson,CO,391820N,1023610W,4409,Stratton,,1-Feb-93
+Kit Carson Division,1935499,Civil,Cheyenne,CO,384932N,1025113W,4390,Kit Carson,,26-Sep-01
+Kremmling Division,1935500,Civil,Grand,CO,400528N,1061759W,7526,Junction Butte,,26-Sep-01
+La Jara Division,1935502,Civil,Conejos,CO,371720N,1055539W,7588,La Jara,,26-Sep-01
+La Junta Division,1935503,Civil,Otero,CO,375839N,1033538W,4163,La Junta,,26-Sep-01
+La Plata County,198148,Civil,La Plata,CO,371712N,1075036W,7057,Durango East,,1-Feb-93
+La Salle-Gilcrest Division,1935507,Civil,Weld,CO,401816N,1044340W,4724,La Salle,,26-Sep-01
+La Veta Division,1935509,Civil,Huerfano,CO,373006N,1050245W,7211,La Veta,,26-Sep-01
+Lafayette-Louisville Division,1935501,Civil,Boulder,CO,395955N,1050633W,5315,Lafayette,,26-Sep-01
+Lake City Division,1935504,Civil,Hinsdale,CO,374917N,1071801W,10643,Finger Mesa,,26-Sep-01
+Lake County,198149,Civil,Lake,CO,391209N,1062041W,9459,Leadville South,,1-Feb-93
+Lake George Division,1935505,Civil,Park,CO,385245N,1053636W,9465,Spinney Mountain,,26-Sep-01
+Lamar Division,1935506,Civil,Prowers,CO,380831N,1023655W,3678,May Valley,,26-Sep-01
+Larimer County,198150,Civil,Larimer,CO,403959N,1052740W,7096,Big Narrows,,1-Feb-93
+Las Animas County,198151,Civil,Las Animas,CO,371857N,1040219W,5226,Lambing Spring,,1-Feb-93
+Las Animas Division,1935508,Civil,Bent,CO,380902N,1031524W,4117,McIntosh Ranch,,26-Sep-01
+Leadville Division,1935510,Civil,Lake,CO,390914N,1062130W,9744,Leadville South,,26-Sep-01
+Leadville North Division,1935511,Civil,Lake,CO,391851N,1061849W,10200,Leadville North,,26-Sep-01
+Limon Division,1935512,Civil,Lincoln,CO,392048N,1033608W,5640,Genoa West,,26-Sep-01
+Lincoln County,198152,Civil,Lincoln,CO,385917N,1033050W,5171,Beckman Lake,,1-Feb-93
+Livermore Division,1935514,Civil,Larimer,CO,404614N,1053857W,8960,South Bald Mountain,,26-Sep-01
+Logan County,198153,Civil,Logan,CO,404329N,1030636W,3862,Galien,,1-Feb-93
+Longmont Division,1935515,Civil,Boulder,CO,401041N,1051053W,5072,Hygiene,,26-Sep-01
+Loveland Division,1935516,Civil,Larimer,CO,402553N,1051120W,5207,Masonville,,26-Sep-01
+Luis Maria Baca Number 4,192397,Civil,Saguache,CO,375630N,1054132W,7762,Crestone,,13-Oct-78
+Manassa Division,1935518,Civil,Conejos,CO,371037N,1055813W,7713,Manassa,,26-Sep-01
+Mancos Division,1935519,Civil,Montezuma,CO,372101N,1081819W,7037,Mancos,,26-Sep-01
+Manzanola Division,1935520,Civil,Otero,CO,380537N,1035207W,4324,Manzanola,,26-Sep-01
+Maybell-Powder Wash Division,1935521,Civil,Moffat,CO,404414N,1082532W,6138,Clay Buttes,,26-Sep-01
+McClave Division,1935517,Civil,Bent,CO,381044N,1025620W,4153,Lubers,,26-Sep-01
+Meeker Division,1935522,Civil,Rio Blanco,CO,395905N,1075355W,6932,LO 7 Hill,,26-Sep-01
+Merino Division,1935523,Civil,Logan,CO,403128N,1032412W,4249,Willard,,26-Sep-01
+Mesa County,198154,Civil,Mesa,CO,390106N,1082759W,4970,Clifton,,1-Feb-93
+Mineral County,198155,Civil,Mineral,CO,374008N,1065527W,11778,Spar City,,1-Feb-93
+Minturn-Red Cliff Division,1935524,Civil,Eagle,CO,393402N,1062500W,8035,Minturn,,26-Sep-01
+Model Division,1935525,Civil,Las Animas,CO,372759N,1040343W,5364,Brown Sheep Camp,,26-Sep-01
+Moffat County,198156,Civil,Moffat,CO,403706N,1081226W,6814,Sunbeam,,1-Feb-93
+Monte Vista Division,1935526,Civil,Rio Grande,CO,373035N,1061030W,7772,Monte Vista,,26-Sep-01
+Montezuma County,198157,Civil,Montezuma,CO,372018N,1083548W,6145,Cortez,,1-Feb-93
+Montezuma-Cortez School District,1794958,Civil,Montezuma,CO,372051N,1083501W,6181,Cortez,,18-May-98
+Montrose County,198158,Civil,Montrose,CO,382408N,1081610W,9167,Moore Mesa,,1-Feb-93
+Montrose Division,1935527,Civil,Montrose,CO,382534N,1075018W,6020,Montrose East,,26-Sep-01
+Monument Division,1935528,Civil,El Paso,CO,390105N,1045535W,9108,Palmer Lake,,26-Sep-01
+Morgan County,198159,Civil,Morgan,CO,401546N,1034835W,4327,Fort Morgan,,1-Feb-93
+Mosca-Hooper Division,1935529,Civil,Alamosa,CO,373910N,1054519W,7526,Hooper East,,26-Sep-01
+New Castle Division,1935530,Civil,Garfield,CO,393445N,1073237W,5620,New Castle,,26-Sep-01
+Nolan Grant,193697,Civil,Pueblo,CO,381515N,1043802W,4787,Northwest Pueblo,,13-Oct-78
+North Aurora Division,1935531,Civil,Adams,CO,394624N,1044244W,5495,Denver International Airport,,26-Sep-01
+Northeast Jefferson Division,1935532,Civil,Jefferson,CO,394519N,1050742W,5548,Golden,,26-Sep-01
+Northeast Pueblo Division,1935533,Civil,Pueblo,CO,382243N,1041641W,4842,North Avondale NE,,26-Sep-01
+Norwood Division,1935534,Civil,San Miguel,CO,380233N,1081902W,8140,Oak Hill,,26-Sep-01
+Nucla Division,1935535,Civil,Montrose,CO,381811N,1083615W,5620,Nucla,,26-Sep-01
+Oak Creek Division,1935536,Civil,Routt,CO,401640N,1065130W,7136,Blacktail Mountain,,26-Sep-01
+Olathe Division,1935537,Civil,Montrose,CO,383327N,1080131W,5604,Hoovers Corner,,26-Sep-01
+Ordway Division,1935538,Civil,Crowley,CO,381936N,1035317W,4557,Antelope Mesa,,26-Sep-01
+Otero County,198160,Civil,Otero,CO,375410N,1034259W,4380,Hawley,,1-Feb-93
+Otis Division,1935539,Civil,Washington,CO,401255N,1025546W,4324,Otis,,26-Sep-01
+Ouray County,198161,Civil,Ouray,CO,380920N,1074610W,7339,Ridgway,,1-Feb-93
+Ouray Division,1935540,Civil,Ouray,CO,380920N,1074610W,7339,Ridgway,,26-Sep-01
+Pagosa Springs Division,1935541,Civil,Archuleta,CO,371049N,1065325W,8189,Serviceberry Mountain,,26-Sep-01
+Paonia Division,1935542,Civil,Delta,CO,385852N,1073534W,8806,Bowie,,26-Sep-01
+Park County,198162,Civil,Park,CO,390709N,1054302W,9206,Sulphur Mountain,,1-Feb-93
+Parker Division,1935543,Civil,Douglas,CO,392300N,1044450W,6220,Ponderosa Park,,26-Sep-01
+Peetz Division,1935544,Civil,Logan,CO,405530N,1031441W,4593,Padroni NW,,26-Sep-01
+Penrose-Portland Division,1935545,Civil,Fremont,CO,382802N,1050109W,5686,Florence,,26-Sep-01
+Phillips County,198163,Civil,Phillips,CO,403538N,1022127W,3793,Holyoke,,1-Feb-93
+Pikes Peak Division,1935546,Civil,El Paso,CO,385204N,1045900W,8963,Manitou Springs,,26-Sep-01
+Pitkin County,198164,Civil,Pitkin,CO,391302N,1065500W,8189,Highland Peak,,1-Feb-93
+Platteville Division,1935547,Civil,Weld,CO,401219N,1044456W,4951,Milton Reservoir,,26-Sep-01
+Pleasant View Division,1935548,Civil,Montezuma,CO,373053N,1085132W,6637,Pleasant View,,26-Sep-01
+Pritchett Division,1935549,Civil,Baca,CO,372001N,1025618W,4924,Lone Rock,,26-Sep-01
+Prowers County,198165,Civil,Prowers,CO,375719N,1022336W,3688,North Plum Creek NW,,1-Feb-93
+Pueblo County,198166,Civil,Pueblo,CO,381024N,1043046W,4859,Southeast Pueblo,,1-Feb-93
+Pueblo Division,1935550,Civil,Pueblo,CO,381204N,1044743W,5203,Beulah NE,,26-Sep-01
+Pueblo West Division,1935551,Civil,Pueblo,CO,382427N,1044628W,5374,Stone City,,26-Sep-01
+Rangely Division,1935553,Civil,Rio Blanco,CO,395819N,1084401W,6325,Philadelphia Creek,,26-Sep-01
+Raymer Division,1935554,Civil,Weld,CO,404401N,1035256W,4829,Raymer NW,,26-Sep-01
+Rico Division,1935555,Civil,Dolores,CO,374537N,1082152W,8399,Groundhog Reservoir,,26-Sep-01
+Rifle Division,1935556,Civil,Garfield,CO,393647N,1074751W,6030,Rifle,,26-Sep-01
+Rio Blanco County,198167,Civil,Rio Blanco,CO,395847N,1081302W,6450,Greasewood Gulch,,1-Feb-93
+Rio Grande County,198168,Civil,Rio Grande,CO,373457N,1062300W,9229,Horseshoe Mountain,,1-Feb-93
+Rocky Ford Division,1935557,Civil,Otero,CO,380217N,1034335W,4219,Rocky Ford,,26-Sep-01
+Routt County,198169,Civil,Routt,CO,402906N,1065928W,6526,Cow Creek,,1-Feb-93
+Saguache County,198170,Civil,Saguache,CO,380450N,1061654W,9360,Laughlin Gulch,9-Feb-65,1-Feb-93
+Saguache Division,1935558,Civil,Saguache,CO,380353N,1060609W,7661,Hickey Bridge,,26-Sep-01
+Saint Charles Mesa Division,1935559,Civil,Pueblo,CO,381326N,1043335W,4810,Southeast Pueblo,,26-Sep-01
+Salida Division,1935560,Civil,Chaffee,CO,383520N,1060822W,8425,Maysville,,26-Sep-01
+San Juan County,198171,Civil,San Juan,CO,374551N,1074034W,10233,Silverton,,1-Feb-93
+San Luis Division,1935561,Civil,Costilla,CO,370907N,1052656W,8520,San Luis,,26-Sep-01
+San Miguel County,198172,Civil,San Miguel,CO,380013N,1082421W,8441,Barkelew Draw,,1-Feb-93
+Sangre de Cristo Grant,169596,Civil,Costilla,CO,371230N,1052732W,7884,San Luis,,31-Aug-92
+Sapinero Division,1935562,Civil,Gunnison,CO,382358N,1071714W,8438,Sapinero,,26-Sep-01
+Sargent Division,1935563,Civil,Rio Grande,CO,374020N,1060729W,7664,Center South,,26-Sep-01
+Sedalia Division,1935564,Civil,Douglas,CO,392046N,1050445W,7759,Devils Head,,26-Sep-01
+Sedgwick County,198173,Civil,Sedgwick,CO,405233N,1022106W,3835,Julesburg,,1-Feb-93
+Sheridan Lake Division,1935565,Civil,Kiowa,CO,382626N,1021947W,4144,Sheridan Lake,,26-Sep-01
+Silverthorne Division,1935566,Civil,Summit,CO,394524N,1061129W,9301,Squaw Creek,,26-Sep-01
+Silverton Division,1935567,Civil,San Juan,CO,374551N,1074034W,10233,Silverton,,26-Sep-01
+Simla Division,1935568,Civil,Elbert,CO,390505N,1035719W,6096,Matheson SW,,26-Sep-01
+Snowmass Village Division,1935569,Civil,Pitkin,CO,391402N,1070754W,10984,Redstone,,26-Sep-01
+Somerset Division,1935570,Civil,Gunnison,CO,385730N,1071841W,7352,Paonia Reservoir,,26-Sep-01
+South Aurora Division,1935571,Civil,Arapahoe,CO,393908N,1044735W,5673,Fitzsimons,,26-Sep-01
+South Bent Division,1935552,Civil,Bent,CO,375122N,1030359W,4173,Toonerville SE,,26-Sep-01
+South Jefferson Division,1935574,Civil,Jefferson,CO,392357N,1051622W,6840,Pine,,26-Sep-01
+South Sedgwick Division,1935581,Civil,Sedgwick,CO,405120N,1021917W,3809,Julesburg SE,,26-Sep-01
+Southeastern El Paso Division,1935573,Civil,El Paso,CO,384359N,1042012W,5899,Hanover NE,,26-Sep-01
+Southern Ute Reservation,169585,Civil,La Plata,CO,370629N,1073842W,6463,Ignacio,,13-Oct-78
+Southwest Arapahoe Division,1935575,Civil,Arapahoe,CO,393626N,1045624W,5463,Highlands Ranch,,26-Sep-01
+Springfield Division,1935576,Civil,Baca,CO,372604N,1023643W,4321,Springfield East,,26-Sep-01
+State of Colorado,1779779,Civil,Park,CO,385955N,1053252W,8914,Spinney Mountain,1-Jan-65,6-Feb-98
+Steamboat Springs Division,1935577,Civil,Routt,CO,403812N,1065141W,8353,Floyd Peak,,26-Sep-01
+Sterling Division,1935578,Civil,Logan,CO,404349N,1031947W,4190,Atwood NE,,26-Sep-01
+Stratton Division,1935579,Civil,Kit Carson,CO,391815N,1023511W,4393,Stratton,,26-Sep-01
+Sugar City Division,1935580,Civil,Crowley,CO,381936N,1033716W,4409,Todd Point,,26-Sep-01
+Summit County,198174,Civil,Summit,CO,393803N,1060659W,9472,Dillon,,1-Feb-93
+Teller County,198175,Civil,Teller,CO,385256N,1050943W,9386,Divide,,1-Feb-93
+Telluride Division,1935582,Civil,San Miguel,CO,375730N,1075750W,9255,Gray Head,,26-Sep-01
+Tierra Amarilla Grant,169594,Civil,Archuleta,CO,370500N,1063732W,11660,Chama Peak,,13-Oct-78
+Timnath-Wellington Division,1935583,Civil,Larimer,CO,404945N,1050543W,5673,Buckeye,,26-Sep-01
+Timpas Division,1935584,Civil,Otero,CO,375014N,1034507W,4406,Timpas,,26-Sep-01
+Town of Aguilar,2412339,Civil,Las Animas,CO,372413N,1043918W,6384,Aguilar,,11-Mar-08
+Town of Akron,2412340,Civil,Washington,CO,400952N,1031314W,4685,Akron,,11-Mar-08
+Town of Alma,2412350,Civil,Park,CO,391707N,1060356W,10459,Alma,,11-Mar-08
+Town of Antonito,2412370,Civil,Conejos,CO,370436N,1060037W,7890,Antonito,,11-Mar-08
+Town of Arriba,2411647,Civil,Lincoln,CO,391703N,1031626W,5236,Arriba,,11-Mar-08
+Town of Ault,2411653,Civil,Weld,CO,403515N,1044418W,4944,Eaton,,11-Mar-08
+Town of Avon,2411658,Civil,Eagle,CO,393841N,1063050W,8087,Edwards,,11-Mar-08
+Town of Basalt,2411665,Civil,Eagle,CO,392208N,1070149W,6608,Basalt,,11-Mar-08
+Town of Bayfield,2411667,Civil,La Plata,CO,371407N,1073541W,6982,Bayfield,,11-Mar-08
+Town of Bennett,2411676,Civil,Adams,CO,394510N,1042544W,5495,Bennett,,11-Mar-08
+Town of Berthoud,2411681,Civil,Larimer,CO,401825N,1050447W,5033,Berthoud,,11-Mar-08
+Town of Bethune,2411684,Civil,Kit Carson,CO,391814N,1022524W,4255,Bethune,,11-Mar-08
+Town of Blanca,2411696,Civil,Costilla,CO,372621N,1053049W,7762,Blanca,,11-Mar-08
+Town of Blue River,2411700,Civil,Summit,CO,392612N,1060226W,9974,Breckenridge,,11-Mar-08
+Town of Bonanza,2411706,Civil,Saguache,CO,381748N,1060831W,9511,Bonanza,,11-Mar-08
+Town of Boone,2411709,Civil,Pueblo,CO,381457N,1041528W,4472,Avondale,,11-Mar-08
+Town of Bow Mar,2411713,Civil,Arapahoe,CO,393731N,1050305W,5538,Fort Logan,,11-Mar-08
+Town of Branson,2411720,Civil,Las Animas,CO,370056N,1035302W,6289,Branson,,11-Mar-08
+Town of Breckenridge,2411722,Civil,Summit,CO,392959N,1060236W,9603,Breckenridge,,11-Mar-08
+Town of Brookside,2411733,Civil,Fremont,CO,382449N,1051128W,5381,Canon City,,11-Mar-08
+Town of Buena Vista,2411739,Civil,Chaffee,CO,384955N,1060820W,7989,Buena Vista West,,11-Mar-08
+Town of Calhan,2413149,Civil,El Paso,CO,390204N,1041757W,6529,Calhan,,11-Mar-08
+Town of Campo,2413155,Civil,Baca,CO,370617N,1023444W,4340,Campo,,11-Mar-08
+Town of Carbondale,2413166,Civil,Garfield,CO,392341N,1071252W,6201,Carbondale,,11-Mar-08
+Town of Castle Rock,2413179,Civil,Douglas,CO,392234N,1045113W,6289,Castle Rock North,,11-Mar-08
+Town of Cedaredge,2413184,Civil,Delta,CO,385339N,1075532W,6135,Cedaredge,,11-Mar-08
+Town of Center,2413186,Civil,Saguache,CO,374505N,1060637W,7644,Center North,,11-Mar-08
+Town of Cheraw,2413193,Civil,Otero,CO,380629N,1033039W,4134,Cheraw,,11-Mar-08
+Town of Cheyenne Wells,2413197,Civil,Cheyenne,CO,384909N,1022107W,4278,Cheyenne Wells,,11-Mar-08
+Town of Coal Creek,2413219,Civil,Fremont,CO,382143N,1050830W,5341,Rockvale,,11-Mar-08
+Town of Cokedale,2413221,Civil,Las Animas,CO,370839N,1043718W,6332,Trinidad West,,11-Mar-08
+Town of Collbran,2413226,Civil,Mesa,CO,391424N,1075750W,5971,Collbran,,11-Mar-08
+Town of Columbine Valley,2413232,Civil,Arapahoe,CO,393558N,1050205W,5358,Littleton,,11-Mar-08
+Town of Crawford,2412382,Civil,Delta,CO,384219N,1073636W,6594,Crawford,,11-Mar-08
+Town of Crested Butte,2412385,Civil,Gunnison,CO,385204N,1065838W,8875,Crested Butte,,11-Mar-08
+Town of Crestone,2412387,Civil,Saguache,CO,375940N,1054147W,7966,Crestone,,11-Mar-08
+Town of Crook,2412389,Civil,Logan,CO,405132N,1024805W,3707,Crook,,11-Mar-08
+Town of Crowley,2412394,Civil,Crowley,CO,381137N,1035135W,4350,Ordway,,11-Mar-08
+Town of De Beque,2412412,Civil,Mesa,CO,391716N,1081143W,4977,De Beque,,11-Mar-08
+Town of Deer Trail,2412415,Civil,Arapahoe,CO,393655N,1040235W,5190,Deer Trail,,11-Mar-08
+Town of Del Norte,2412416,Civil,Rio Grande,CO,374042N,1062114W,7884,Del Norte,,11-Mar-08
+Town of Dillon,2412431,Civil,Summit,CO,393716N,1060219W,9022,Frisco,,11-Mar-08
+Town of Dinosaur,2412432,Civil,Moffat,CO,401426N,1090031W,5869,Dinosaur,,11-Mar-08
+Town of Dolores,2412439,Civil,Montezuma,CO,372826N,1082959W,6942,Dolores East,,11-Mar-08
+Town of Dove Creek,2412446,Civil,Dolores,CO,374600N,1085423W,6844,Dove Creek,,11-Mar-08
+Town of Eads,2412454,Civil,Kiowa,CO,382853N,1024647W,4216,Eads,,11-Mar-08
+Town of Eagle,2412456,Civil,Eagle,CO,393812N,1064856W,6667,Eagle,,11-Mar-08
+Town of Eaton,2412462,Civil,Weld,CO,403138N,1044245W,4833,Eaton,,11-Mar-08
+Town of Eckley,2412464,Civil,Yuma,CO,400645N,1022919W,3894,Eckley,,11-Mar-08
+Town of Elizabeth,2412474,Civil,Elbert,CO,392140N,1043622W,6594,Elizabeth,,11-Mar-08
+Town of Empire,2412485,Civil,Clear Creek,CO,394534N,1054058W,8576,Empire,,11-Mar-08
+Town of Erie,2412599,Civil,Weld,CO,400225N,1050222W,5059,Erie,,11-Mar-08
+Town of Estes Park,2412603,Civil,Larimer,CO,402100N,1053043W,7772,Longs Peak,,11-Mar-08
+Town of Fairplay,2412616,Civil,Park,CO,391328N,1055945W,9947,Fairplay East,9-Feb-65,11-Mar-08
+Town of Firestone,2412626,Civil,Weld,CO,400923N,1045658W,4856,Gowanda,,11-Mar-08
+Town of Flagler,2412628,Civil,Kit Carson,CO,391744N,1030436W,4961,Flagler,,11-Mar-08
+Town of Fleming,2412631,Civil,Logan,CO,404054N,1025022W,4239,Fleming,,11-Mar-08
+Town of Fowler,2412648,Civil,Otero,CO,380747N,1040132W,4340,Fowler,,11-Mar-08
+Town of Foxfield,2412649,Civil,Arapahoe,CO,393517N,1044709W,5807,Parker,,11-Mar-08
+Town of Fraser,2412655,Civil,Grand,CO,395549N,1054811W,8799,Fraser,,11-Mar-08
+Town of Frederick,2412656,Civil,Weld,CO,400634N,1045800W,4941,Frederick,,11-Mar-08
+Town of Frisco,2412661,Civil,Summit,CO,393446N,1060531W,9029,Frisco,,11-Mar-08
+Town of Garden City,2412667,Civil,Weld,CO,402341N,1044122W,4698,Greeley,,11-Mar-08
+Town of Genoa,2412675,Civil,Lincoln,CO,391642N,1032956W,5604,Genoa East,,11-Mar-08
+Town of Georgetown,2412677,Civil,Clear Creek,CO,394305N,1054139W,8464,Georgetown,,11-Mar-08
+Town of Gilcrest,2412683,Civil,Weld,CO,401703N,1044655W,4747,Milliken,,11-Mar-08
+Town of Granada,2412698,Civil,Prowers,CO,380347N,1021842W,3484,Granada,,11-Mar-08
+Town of Granby,2412699,Civil,Grand,CO,400106N,1055442W,8966,Granby,,11-Mar-08
+Town of Grand Lake,2412701,Civil,Grand,CO,401502N,1054925W,8373,Grand Lake,,11-Mar-08
+Town of Green Mountain Falls,2412708,Civil,El Paso,CO,385604N,1050125W,8015,Woodland Park,,11-Mar-08
+Town of Grover,2412712,Civil,Weld,CO,405209N,1041333W,5072,Grover South,,11-Mar-08
+Town of Gypsum,2412716,Civil,Eagle,CO,393810N,1065359W,6627,Gypsum,,11-Mar-08
+Town of Hartman,2412730,Civil,Prowers,CO,380716N,1021318W,3586,Holly West,,11-Mar-08
+Town of Haswell,2412734,Civil,Kiowa,CO,382709N,1030954W,4541,Haswell,,11-Mar-08
+Town of Haxtun,2412738,Civil,Phillips,CO,403829N,1023746W,4032,Haxtun West,,11-Mar-08
+Town of Hayden,2412740,Civil,Routt,CO,402907N,1071432W,6371,Mount Harris,,11-Mar-08
+Town of Hillrose,2412751,Civil,Morgan,CO,401929N,1033120W,4167,Brush East,,11-Mar-08
+Town of Holly,2412764,Civil,Prowers,CO,380319N,1020729W,3396,Holly East,,11-Mar-08
+Town of Hooper,2412766,Civil,Alamosa,CO,374446N,1055240W,7559,Hooper West,,11-Mar-08
+Town of Hot Sulphur Springs,2412770,Civil,Grand,CO,400429N,1060609W,7710,Hot Sulphur Springs,,11-Mar-08
+Town of Hotchkiss,2412771,Civil,Delta,CO,384757N,1074249W,5331,Hotchkiss,,11-Mar-08
+Town of Hudson,2412776,Civil,Weld,CO,400511N,1043628W,4944,Keenesburg,,11-Mar-08
+Town of Hugo,2412778,Civil,Lincoln,CO,390809N,1032824W,5043,Hugo,,11-Mar-08
+Town of Ignacio,2412787,Civil,La Plata,CO,370704N,1073815W,6516,Ignacio,,11-Mar-08
+Town of Iliff,2412788,Civil,Logan,CO,404530N,1030358W,3835,Iliff,,11-Mar-08
+Town of Jamestown,2412800,Civil,Boulder,CO,400704N,1052330W,7192,Gold Hill,,11-Mar-08
+Town of Johnstown,2412807,Civil,Weld,CO,401955N,1045624W,4902,Johnstown,,11-Mar-08
+Town of Julesburg,2412812,Civil,Sedgwick,CO,405906N,1021545W,3468,Julesburg,,11-Mar-08
+Town of Keenesburg,2412820,Civil,Weld,CO,400628N,1043114W,4951,Keenesburg,,11-Mar-08
+Town of Kersey,2412828,Civil,Weld,CO,402316N,1043353W,4616,Kersey,,11-Mar-08
+Town of Kim,2412834,Civil,Las Animas,CO,371449N,1032112W,5695,Kim South,,11-Mar-08
+Town of Kiowa,2412838,Civil,Elbert,CO,392035N,1042720W,6443,Kiowa,,11-Mar-08
+Town of Kit Carson,2412842,Civil,Cheyenne,CO,384546N,1024743W,4288,Kit Carson,,11-Mar-08
+Town of Kremmling,2412848,Civil,Grand,CO,400324N,1062241W,7283,Kremmling,,11-Mar-08
+Town of La Jara,2412855,Civil,Conejos,CO,371625N,1055735W,7605,La Jara,,11-Mar-08
+Town of La Salle,2412856,Civil,Weld,CO,402054N,1044222W,4678,La Salle,,11-Mar-08
+Town of La Veta,2412857,Civil,Huerfano,CO,373031N,1050031W,7014,La Veta,,11-Mar-08
+Town of Lake City,2412863,Civil,Hinsdale,CO,380149N,1071837W,8681,Lake City,,11-Mar-08
+Town of Lakeside,2412865,Civil,Jefferson,CO,394649N,1050328W,5344,Arvada,,11-Mar-08
+Town of Larkspur,2412878,Civil,Douglas,CO,391325N,1045337W,6883,Larkspur,,11-Mar-08
+Town of Limon,2412897,Civil,Lincoln,CO,391555N,1034106W,5354,Limon,,11-Mar-08
+Town of Lochbuie,2412905,Civil,Weld,CO,400042N,1044338W,5052,Hudson,,11-Mar-08
+Town of Log Lane Village,2412910,Civil,Morgan,CO,401613N,1034946W,4308,Fort Morgan,,11-Mar-08
+Town of Lyons,2412930,Civil,Boulder,CO,401323N,1051609W,5341,Lyons,,11-Mar-08
+Town of Manassa,2412937,Civil,Conejos,CO,371026N,1055614W,7690,Manassa,,11-Mar-08
+Town of Mancos,2412939,Civil,Montezuma,CO,372048N,1081738W,7011,Mancos,,11-Mar-08
+Town of Manzanola,2412949,Civil,Otero,CO,380632N,1035200W,4258,Manzanola,,11-Mar-08
+Town of Marble,2412952,Civil,Gunnison,CO,390419N,1071126W,8012,Marble,,11-Mar-08
+Town of Mead,2412970,Civil,Weld,CO,401356N,1045933W,4993,Gowanda,,11-Mar-08
+Town of Meeker,2412977,Civil,Rio Blanco,CO,400259N,1075343W,6447,Meeker,,11-Mar-08
+Town of Merino,2412985,Civil,Logan,CO,402905N,1032113W,4039,Merino,,11-Mar-08
+Town of Milliken,2413000,Civil,Weld,CO,401841N,1045122W,4810,Milliken,,11-Mar-08
+Town of Minturn,2413005,Civil,Eagle,CO,393246N,1062314W,10220,Minturn,,11-Mar-08
+Town of Moffat,2413006,Civil,Saguache,CO,380007N,1055420W,7566,Moffat North,,11-Mar-08
+Town of Montezuma,2413008,Civil,Summit,CO,393454N,1055205W,10302,Montezuma,,11-Mar-08
+Town of Monument,2413009,Civil,El Paso,CO,390425N,1045049W,6985,Monument,,11-Mar-08
+Town of Morrison,2413014,Civil,Jefferson,CO,393915N,1051130W,5768,Morrison,,11-Mar-08
+Town of Mount Crested Butte,2413018,Civil,Gunnison,CO,385430N,1065731W,9823,Gothic,,11-Mar-08
+Town of Mountain View,2413021,Civil,Jefferson,CO,394629N,1050324W,5384,Arvada,,11-Mar-08
+Town of Mountain Village,2413024,Civil,San Miguel,CO,375557N,1075128W,9521,Telluride,,11-Mar-08
+Town of Naturita,2413035,Civil,Montrose,CO,381307N,1083406W,5417,Naturita,,11-Mar-08
+Town of Nederland,2413037,Civil,Boulder,CO,395748N,1053026W,8228,Nederland,,11-Mar-08
+Town of New Castle,2413042,Civil,Garfield,CO,393442N,1073134W,5830,New Castle,,11-Mar-08
+Town of Norwood,2413057,Civil,San Miguel,CO,380744N,1081730W,7024,Norwood,,11-Mar-08
+Town of Nucla,2413058,Civil,Montrose,CO,381600N,1083255W,5748,Nucla,,11-Mar-08
+Town of Nunn,2413059,Civil,Weld,CO,404248N,1044717W,5213,Nunn,,11-Mar-08
+Town of Oak Creek,2413061,Civil,Routt,CO,401626N,1065727W,7441,Oak Creek,,11-Mar-08
+Town of Olathe,2413078,Civil,Montrose,CO,383630N,1075858W,5348,Olathe,,11-Mar-08
+Town of Olney Springs,2413079,Civil,Crowley,CO,380959N,1035640W,4383,Olney Springs,,11-Mar-08
+Town of Ophir,2413085,Civil,San Miguel,CO,375125N,1074944W,9796,Ophir,,11-Mar-08
+Town of Orchard City,2413088,Civil,Delta,CO,384850N,1075815W,5358,Orchard City,,11-Mar-08
+Town of Ordway,2413090,Civil,Crowley,CO,381315N,1034524W,4318,Ordway,,11-Mar-08
+Town of Otis,2413094,Civil,Washington,CO,400900N,1025744W,4337,Otis,,11-Mar-08
+Town of Ovid,2413096,Civil,Sedgwick,CO,405738N,1022318W,3530,Ovid,,11-Mar-08
+Town of Pagosa Springs,2413099,Civil,Archuleta,CO,371538N,1070050W,7050,Pagosa Springs,,11-Mar-08
+Town of Palisade,2413101,Civil,Mesa,CO,390628N,1082130W,4718,Palisade,9-Feb-65,11-Mar-08
+Town of Palmer Lake,2413103,Civil,El Paso,CO,390656N,1045418W,7149,Palmer Lake,,11-Mar-08
+Town of Paoli,2413107,Civil,Phillips,CO,403646N,1022819W,3894,Paoli,,11-Mar-08
+Town of Paonia,2413109,Civil,Delta,CO,385211N,1073529W,5679,Paonia,,11-Mar-08
+Town of Parachute,2413110,Civil,Garfield,CO,392700N,1080318W,5092,Parachute,,11-Mar-08
+Town of Parker,2413117,Civil,Douglas,CO,393027N,1044628W,5830,Parker,,11-Mar-08
+Town of Peetz,2413123,Civil,Logan,CO,405743N,1030651W,4432,Peetz,,11-Mar-08
+Town of Pierce,2413129,Civil,Weld,CO,403801N,1044519W,5033,Nunn,,11-Mar-08
+Town of Pitkin,2413138,Civil,Gunnison,CO,383631N,1063059W,9206,Pitkin,,11-Mar-08
+Town of Platteville,2412489,Civil,Weld,CO,401331N,1045112W,4783,Platteville,,11-Mar-08
+Town of Poncha Springs,2412495,Civil,Chaffee,CO,383051N,1060421W,7444,Salida West,,11-Mar-08
+Town of Pritchett,2412509,Civil,Baca,CO,372212N,1025131W,4829,Pritchett,,11-Mar-08
+Town of Ramah,2412523,Civil,El Paso,CO,390720N,1041002W,6106,Ramah South,,11-Mar-08
+Town of Rangely,2412528,Civil,Rio Blanco,CO,400520N,1084524W,5328,Rangely,,11-Mar-08
+Town of Raymer,2412533,Civil,Weld,CO,403629N,1035036W,4777,Raymer,,11-Mar-08
+Town of Red Cliff,2412535,Civil,Eagle,CO,393033N,1062212W,8852,Red Cliff,,11-Mar-08
+Town of Rico,2412550,Civil,Dolores,CO,374119N,1080153W,8770,Rico,,11-Mar-08
+Town of Ridgway,2412551,Civil,Ouray,CO,380926N,1074517W,6968,Ridgway,,11-Mar-08
+Town of Rockvale,2412564,Civil,Fremont,CO,382153N,1050953W,5485,Rockvale,,11-Mar-08
+Town of Romeo,2412574,Civil,Conejos,CO,371019N,1055907W,7736,Manassa,,11-Mar-08
+Town of Rye,2412588,Civil,Pueblo,CO,375517N,1045556W,6824,Rye,,11-Mar-08
+Town of Saguache,2412591,Civil,Saguache,CO,380510N,1060827W,7703,Saguache,,11-Mar-08
+Town of San Luis,2413253,Civil,Costilla,CO,371208N,1052521W,7989,San Luis,,11-Mar-08
+Town of Sanford,2413256,Civil,Conejos,CO,371527N,1055403W,7598,La Jara,,11-Mar-08
+Town of Sawpit,2413263,Civil,San Miguel,CO,375941N,1080004W,7556,Little Cone,,11-Mar-08
+Town of Sedgwick,2413269,Civil,Sedgwick,CO,405606N,1023132W,3589,Sedgwick,,11-Mar-08
+Town of Seibert,2413270,Civil,Kit Carson,CO,391753N,1025210W,4711,Seibert,,11-Mar-08
+Town of Severance,2413272,Civil,Weld,CO,403003N,1045211W,4842,Severance,,11-Mar-08
+Town of Sheridan Lake,2413280,Civil,Kiowa,CO,382800N,1021739W,4071,Sheridan Lake,,11-Mar-08
+Town of Silt,2413284,Civil,Garfield,CO,393252N,1073914W,5446,Silt,,11-Mar-08
+Town of Silver Cliff,2413286,Civil,Custer,CO,380713N,1052437W,8261,Aldrich Gulch,,11-Mar-08
+Town of Silver Plume,2413287,Civil,Clear Creek,CO,394144N,1054335W,9101,Georgetown,,11-Mar-08
+Town of Silverthorne,2413288,Civil,Summit,CO,393923N,1060513W,8809,Dillon,,11-Mar-08
+Town of Silverton,2413289,Civil,San Juan,CO,374840N,1073953W,9301,Silverton,,11-Mar-08
+Town of Simla,2413290,Civil,Elbert,CO,390828N,1040454W,5981,Simla,,11-Mar-08
+Town of Snowmass Village,2413302,Civil,Pitkin,CO,391313N,1065621W,8343,Highland Peak,,11-Mar-08
+Town of South Fork,2413307,Civil,Rio Grande,CO,374010N,1063834W,8215,South Fork West,,11-Mar-08
+Town of Springfield,2413324,Civil,Baca,CO,372418N,1023708W,4370,Springfield East,,11-Mar-08
+Town of Starkville,2413331,Civil,Las Animas,CO,370701N,1043124W,6365,Starkville,,11-Mar-08
+Town of Stratton,2413341,Civil,Kit Carson,CO,391810N,1023613W,4413,Stratton,,11-Mar-08
+Town of Sugar City,2413346,Civil,Crowley,CO,381358N,1033948W,4304,Sugar City,,11-Mar-08
+Town of Superior,2413354,Civil,Boulder,CO,395605N,1050930W,5518,Louisville,,11-Mar-08
+Town of Swink,2413358,Civil,Otero,CO,380051N,1033741W,4121,Rocky Ford,,11-Mar-08
+Town of Telluride,2413371,Civil,San Miguel,CO,375623N,1074904W,8753,Telluride,,11-Mar-08
+Town of Timnath,2413391,Civil,Larimer,CO,403146N,1045745W,4862,Timnath,,11-Mar-08
+Town of Two Buttes,2413409,Civil,Baca,CO,373338N,1022348W,4108,Two Buttes,,11-Mar-08
+Town of Vail,2413415,Civil,Eagle,CO,393819N,1062139W,8271,Vail East,,11-Mar-08
+Town of Vilas,2413433,Civil,Baca,CO,372225N,1022651W,4153,Vilas South,,11-Mar-08
+Town of Vona,2413437,Civil,Kit Carson,CO,391808N,1024436W,4505,Vona,,11-Mar-08
+Town of Walden,2413440,Civil,Jackson,CO,404354N,1061653W,8097,Walden,,11-Mar-08
+Town of Walsh,2413444,Civil,Baca,CO,372310N,1021648W,3960,Walsh,,11-Mar-08
+Town of Ward,2413449,Civil,Boulder,CO,400421N,1053049W,9436,Ward,,11-Mar-08
+Town of Wellington,2413464,Civil,Larimer,CO,404202N,1050021W,5197,Wellington,,11-Mar-08
+Town of Westcliffe,2413471,Civil,Custer,CO,380802N,1052755W,7871,Westcliffe,9-Feb-65,11-Mar-08
+Town of Wiggins,2413486,Civil,Morgan,CO,401339N,1040424W,4547,Wiggins,,11-Mar-08
+Town of Wiley,2413488,Civil,Prowers,CO,380919N,1024309W,3740,Wiley,,11-Mar-08
+Town of Williamsburg,2413490,Civil,Fremont,CO,382302N,1051016W,5781,Canon City,,11-Mar-08
+Town of Windsor,2413496,Civil,Weld,CO,402805N,1045517W,4774,Windsor,,11-Mar-08
+Town of Winter Park,2413502,Civil,Grand,CO,395240N,1054658W,10151,Fraser,,11-Mar-08
+Town of Yampa,2413518,Civil,Routt,CO,400911N,1065431W,7877,Yampa,,11-Mar-08
+Town of the City of Creede,2412384,Civil,Mineral,CO,375056N,1065531W,8796,Creede,,11-Mar-08
+Trinidad Division,1935585,Civil,Las Animas,CO,370927N,1042623W,6463,Trinidad East,,26-Sep-01
+Two Butte Creek Division,1935586,Civil,Prowers,CO,375021N,1022323W,3976,Barrel Spring,,26-Sep-01
+Upper Saint Vrain Division,1935587,Civil,Boulder,CO,401047N,1053001W,8776,Allenspark,,26-Sep-01
+Ute Mountain Division,1935588,Civil,Montezuma,CO,370803N,1084229W,5522,Towaoc,,26-Sep-01
+Ute Mountain Reservation,169579,Civil,Montezuma,CO,370614N,1083946W,5807,Tanner Mesa,,13-Oct-78
+Vigil and Saint Vrain,193947,Civil,Pueblo,CO,375659N,1042830W,5407,Hog Ranch Canyon,,13-Oct-78
+Vigil and Saint Vrain,203709,Civil,Huerfano,CO,374440N,1045502W,6165,Black Hills,,13-Oct-78
+Vigil and Saint Vrain Number 6,169529,Civil,Pueblo,CO,375247N,1044029W,5656,Graneros Flats,,13-Oct-78
+Walden Division,1935589,Civil,Jackson,CO,403959N,1062034W,8127,Walden,,26-Sep-01
+Walsenburg Division,1935590,Civil,Huerfano,CO,374138N,1044445W,5932,Maria Reservoir,,26-Sep-01
+Walsh Division,1935591,Civil,Baca,CO,372113N,1021344W,3865,Stonington,,26-Sep-01
+Washington County,198176,Civil,Washington,CO,395816N,1031205W,4669,Elba,,1-Feb-93
+Weld County,198177,Civil,Weld,CO,403317N,1042333W,4800,Cornish,,1-Feb-93
+Weldona Division,1935592,Civil,Morgan,CO,402521N,1040126W,4521,Sunken Lake,,26-Sep-01
+West Adams Division,1935593,Civil,Adams,CO,395250N,1045857W,5341,Eastlake,,26-Sep-01
+West Conejos Division,1935432,Civil,Conejos,CO,371221N,1062100W,9688,La Jara Canyon,,26-Sep-01
+West Garfield Division,1935478,Civil,Garfield,CO,393118N,1082812W,6384,Desert Gulch,,26-Sep-01
+West San Miguel Division,1935471,Civil,San Miguel,CO,380022N,1084532W,5699,Hamm Canyon,,26-Sep-01
+Westcliffe Division,1935594,Civil,Custer,CO,380631N,1052203W,8943,Rosita,,26-Sep-01
+Weston Division,1935595,Civil,Las Animas,CO,370853N,1045507W,7296,Vigil,,26-Sep-01
+Whitewater-Kannah Creek Division,1935596,Civil,Mesa,CO,385833N,1082049W,5512,Juniata Reservoir,,26-Sep-01
+Wiggins Division,1935597,Civil,Morgan,CO,400941N,1040139W,4600,Wiggins,,26-Sep-01
+Windsor Division,1935598,Civil,Weld,CO,402932N,1045220W,4833,Bracewell,,26-Sep-01
+Woodlin Division,1935513,Civil,Washington,CO,394614N,1032815W,4905,Dry Gulch,,26-Sep-01
+Wray Division,1935599,Civil,Yuma,CO,400824N,1021641W,3793,Eckley NE,,26-Sep-01
+Yampa Division,1935600,Civil,Routt,CO,400247N,1065101W,8294,Toponas,,26-Sep-01
+Yuma County,198178,Civil,Yuma,CO,400010N,1022527W,3842,Eckley,,1-Feb-93
+Yuma Division,1935601,Civil,Yuma,CO,400409N,1023815W,4062,Yuma South,,26-Sep-01

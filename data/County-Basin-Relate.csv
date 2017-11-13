@@ -1,0 +1,60 @@
+GNIS_ID,CountyName,Basin,Basin_Fraction
+198116,Adams,Metro,0.24
+198116,Adams,South Platte,0.76
+198118,Arapahoe,Metro,0.29
+198118,Arapahoe,South Platte,0.71
+198119,Archuleta,Rio Grande,0.05
+198119,Archuleta,Southwest,0.95
+1945881,Broomfield,Metro,0.46
+1945881,Broomfield,South Platte,0.54
+198124,Cheyenne,South Platte,0.39
+198124,Cheyenne,Arkansas,0.61
+198126,Conejos,Southwest,0.01
+198126,Conejos,Rio Grande,0.99
+198127,Costilla,Arkansas,0.03
+198127,Costilla,Rio Grande,0.97
+198131,Denver,South Platte,0.11
+198131,Denver,Metro,0.89
+198135,El Paso,Metro,0.02
+198135,El Paso,South Platte,0.03
+198135,El Paso,Arkansas,0.95
+198136,Elbert,Metro,0.02
+198136,Elbert,Arkansas,0.32
+198136,Elbert,South Platte,0.66
+198138,Garfield,Yampa,0.15
+198138,Garfield,Colorado,0.85
+198140,Grand,Yampa,0.01
+198140,Grand,Colorado,0.99
+198141,Gunnison,Colorado,0.03
+198141,Gunnison,Gunnison,0.97
+198142,Hinsdale,Southwest,0.26
+198142,Hinsdale,Rio Grande,0.28
+198142,Hinsdale,Gunnison,0.45
+198145,Jefferson,South Platte,0.38
+198145,Jefferson,Metro,0.62
+198150,Larimer,North Platte,0.16
+198150,Larimer,South Platte,0.84
+198152,Lincoln,South Platte,0.27
+198152,Lincoln,Arkansas,0.73
+198154,Mesa,Southwest,0.23
+198154,Mesa,Gunnison,0.23
+198154,Mesa,Colorado,0.54
+198155,Mineral,Southwest,0.25
+198155,Mineral,Rio Grande,0.75
+198158,Montrose,Southwest,0.5
+198158,Montrose,Gunnison,0.5
+198162,Park,Arkansas,0.13
+198162,Park,South Platte,0.87
+198168,Rio Grande,Southwest,0.01
+198168,Rio Grande,Rio Grande,0.99
+198169,Routt,Colorado,0.11
+198169,Routt,Yampa,0.89
+198170,Saguache,Arkansas,0.01
+198170,Saguache,Gunnison,0.25
+198170,Saguache,Rio Grande,0.74
+198171,San Juan,Gunnison,0.02
+198171,San Juan,Rio Grande,0.09
+198171,San Juan,Southwest,0.89
+198175,Teller,South Platte,0.15
+198175,Teller,Metro,0.29
+198175,Teller,Arkansas,0.56
