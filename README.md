@@ -28,7 +28,7 @@ data-orig/					Folder containing original data files downloaded from agency webs
   Colorado-County-Basin-Intersection.csv	Saved attribute table of the intersection of the county and IBCC basin geojson files that allows for determining the fraction of each IBCC basin within a particular county.
 doc/
   ?                             		Additional documentation for the dataset.
-TSTool/                         		TSTool software command files to process data into useful forms.
+analysis/                         		TSTool software command files used to process data into useful forms.
   README.md                     		Explanation of TSTool command files used to process the core data into other products.
 ```
 
@@ -38,13 +38,13 @@ The core Excel workbook that serves as the master data contains the following da
 
 * **CountyName** -- name of the county
 * **State_Abbrev** -- abbreviation of the state the county is in
-* **FIPS_ID** -- [Federal Information Processing Standard](https://www.census.gov/geo/reference/codes/cou.html) code, to link federal datasets
+* **FIPS_ID** -- 3-digit [Federal Information Processing Standard](https://www.census.gov/geo/reference/codes/cou.html) code, to link federal datasets
 * **FIPS_ID_Flag** -- data status of FIPS_ID values; see more detail below
 * **GNIS_ID** -- [Geographic Names Information System](https://geonames.usgs.gov/apex/f?p=138:1:9185633219989) identifier, to link federal datasets
 * **GNIS_ID_Flag** -- data status of GNIS_ID values; see more detail below
-* **DOLA_LG_ID** -- identifier used by Colorado's [Department of Local Affairs (DOLA)](https://dola.colorado.gov/lgis/counties.jsf), to link DOLA datasets
+* **DOLA_LG_ID** -- 5-digit identifier used by Colorado's [Department of Local Affairs (DOLA)](https://dola.colorado.gov/lgis/counties.jsf), to link DOLA datasets
 * **DOLA_LG_ID_Flag** -- data status of DOLA_LG_ID values; see more detail below
-* **Basin_CSV** -- basin in which the county is contained.  Several counties are in more than one basin.  In these cases, each basin is listed in alphabetical order, separated by commas.  Counties in multiple basins can also be found in the **County_Basin_Relate** worksheet.
+* **IBCC_Basin_CSV** -- basin in which the county is contained.  Several counties are in more than one basin.  In these cases, each basin is listed in alphabetical order, separated by commas.  Counties in multiple basins can also be found in the **County_Basin_Relate** worksheet.
 * **NumBasin** -- number of basins within the county's boundaries.  This is a quick way to determine if the county is in multiple basins.
 * **Comment** -- any other information about the county
 
@@ -66,12 +66,19 @@ Other worksheets within the workbook contain the following:
 
 * **County_Basin_Relate** worksheet lists the counties that are contained in more than one basin.  This worksheet is organized so that each basin within a county is its own record.  Therefore, the same county may be listed in more than one row and be associated with a different basin.  This will allow for the establishment of one-to-many relationships when linking to and processing other datasets.
 
-* **Basin** worksheet is simply a list of the Interbasin Compact Committee (IBCC) river basins in Colorado.  It is used to fill in basin data in other worksheets to ensure data consistency, i.e., no grammatical errors when typing in a basin name.
+* **IBCC_Basin** worksheet is simply a list of the Interbasin Compact Committee (IBCC) river basins in Colorado.  It is used to fill in basin data in other worksheets to ensure data consistency, i.e., no grammatical errors when typing in a basin name.
 
 * **ChangeLog** worksheet indicates any changes made to the dataset, the date they occurred and who made the changes.
 
 * **Metadata_County** worksheet serves as the metadata for data columns in the **County** worksheet.
 
+### Colorado-Counties.csv Contents ###
+
+This file is the **County** worksheet saved in csv format.  To use this file, **do not** first open in Excel, because IDs that contain leading zeroes will not show those zeroes.  Instead, import the file into a blank Excel file.
+
+### County_Basin_Relate.csv Contents ###
+
+This file is the **County_Basin_Relate** worksheet saved in csv format.  To use this file, **do not** first open in Excel, because IDs that contain leading zeroes will not show those zeroes.  Instead, import the file into a blank Excel file.
 
 ## Attribution ##
 
