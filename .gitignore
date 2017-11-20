@@ -10,6 +10,10 @@
 
 *.tmp
 
+# TSTool log files
+
+*.log
+
 # Word
 #~$*.doc*
 # Excel

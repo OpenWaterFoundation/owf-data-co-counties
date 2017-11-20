@@ -20,7 +20,7 @@ data/                           		Folder containing data files.
   Colorado-Counties.csv      		The Excel file contents from the County worksheet converted to a csv file, useful for automated processing.
   County-Basin-Relate.csv		The Excel file contents from the County_Basin_Relate worksheet converted to a csv file, useful for automated processing.
 data-orig/					Folder containing original data files downloaded from agency websites.
-  Colorado-FIPS-Counties.xlsx			The data file containing original data download from the U.S. Census Bureau containing FIPS IDs.
+  Colorado-FIPS-Counties.txt			The data file containing original data download from the U.S. Census Bureau containing FIPS IDs.
   Colorado-GNIS-Civil.csv			The data file containing original data download from the Geographic Names Information System containing GNIS IDs.
   Colorado-DOLA-LocalGovt-IDs-Counties.csv	The data file that is a copy of the Department of Local Affairs' Local Government Information System website that contains local government IDs (DOLA_LG_ID). 
   Colorado-Counties.geojson		Exported spatial data file from the Colorado Water Conservation Board Data Viewer's County layer.
@@ -29,6 +29,7 @@ data-orig/					Folder containing original data files downloaded from agency webs
 doc/
   ?                             		Additional documentation for the dataset.
 analysis/                         		TSTool software command files used to process data into useful forms.
+  Process-xlsx-to-csv.TSTool			TSTool command file that processes the core dataset from .xlsx to .csv.
   README.md                     		Explanation of TSTool command files used to process the core data into other products.
 ```
 
@@ -45,7 +46,7 @@ The core Excel workbook that serves as the master data contains the following da
 * **DOLA_LG_ID** -- 5-digit identifier used by Colorado's [Department of Local Affairs (DOLA)](https://dola.colorado.gov/lgis/counties.jsf), to link DOLA datasets
 * **DOLA_LG_ID_Flag** -- data status of DOLA_LG_ID values; see more detail below
 * **IBCC_Basin_CSV** -- basin in which the county is contained.  Several counties are in more than one basin.  In these cases, each basin is listed in alphabetical order, separated by commas.  Counties in multiple basins can also be found in the **County_Basin_Relate** worksheet.
-* **NumBasin** -- number of basins within the county's boundaries.  This is a quick way to determine if the county is in multiple basins.
+* **Num_IBCC_Basin** -- number of basins within the county's boundaries.  This is a quick way to determine if the county is in multiple basins.
 * **Comment** -- any other information about the county
 
 Each type of identifier also contains a data column of the same name with the word "Flag" added to the column name.  These columns are an indication of data status as it relates to missing data.  The following conventions are used:
@@ -74,11 +75,11 @@ Other worksheets within the workbook contain the following:
 
 ### Colorado-Counties.csv Contents ###
 
-This file is the **County** worksheet saved in csv format.  To use this file, **do not** first open in Excel, because IDs that contain leading zeroes will not show those zeroes.  Instead, import the file into a blank Excel file.
+This file is the **County** worksheet saved in csv format.  To use this file, **do not** first open in Excel, because IDs that contain leading zeroes will not show those zeroes.  Instead, import the file into a blank Excel file by selecting Data/Get External Data/From Text.
 
 ### County_Basin_Relate.csv Contents ###
 
-This file is the **County_Basin_Relate** worksheet saved in csv format.  To use this file, **do not** first open in Excel, because IDs that contain leading zeroes will not show those zeroes.  Instead, import the file into a blank Excel file.
+This file is the **County_Basin_Relate** worksheet saved in csv format.  To use this file, **do not** first open in Excel, because IDs that contain leading zeroes will not show those zeroes.  Instead, import the file into a blank Excel file by selecting Data/Get External Data/From Text.
 
 ## Attribution ##
 
