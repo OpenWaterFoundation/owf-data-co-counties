@@ -10,27 +10,25 @@ OWF has created and is maintaining this dataset to facilitate work on various da
 The repository contains the following:
 
 ```text
-.gitignore                      		Git configuration file to ignore files that should not be committed to the repository.
-.gitattributes                  		Git configuration file indicate repository configuration, in particular handling
-												of line-ending and binary files.
-build/
-						Folder used by TSTool to create products for publication.
+analysis/                         		TSTool software command files used to process data into useful forms.
+  Process-xlsx-to-csv.TSTool			TSTool command file that processes the core dataset from .xlsx to .csv.
+data-orig/					Folder containing original data files downloaded from agency websites.
+  Colorado-Counties-WGS84.geojson		Exported spatial data file from the Colorado Water Conservation Board Data Viewer's County layer, converted to WGS 84.  
+  Colorado-County-Basin-Intersection.csv	Saved attribute table of the intersection of the county and IBCC basin geojson files that allows for determining the fraction of each IBCC basin within a particular county.
+  Colorado-DOLA-LocalGovt-IDs-Counties.csv	The data file that is a copy of the Department of Local Affairs' Local Government Information System website that contains local government IDs (DOLA_LG_ID). 
+  Colorado-FIPS-Counties.txt			The data file containing original data download from the U.S. Census Bureau containing FIPS IDs.
+  Colorado-GNIS-Civil.csv			The data file containing original data download from the Geographic Names Information System containing GNIS IDs.
+  Colorado-IBCC-Basins-WGS84.geojson		Exported spatial data file from the Colorado Water Conservation Board Data Viewer's IBCC Basin layer, converted to WGS 84.
 data/                           		Folder containing data files.
   Colorado-Counties.xlsx     		Simple Excel file containing core data.
   Colorado-Counties.csv      		The Excel file contents from the County worksheet converted to a csv file, useful for automated processing.
   County-Basin-Relate.csv		The Excel file contents from the County_Basin_Relate worksheet converted to a csv file, useful for automated processing.
-data-orig/					Folder containing original data files downloaded from agency websites.
-  Colorado-FIPS-Counties.txt			The data file containing original data download from the U.S. Census Bureau containing FIPS IDs.
-  Colorado-GNIS-Civil.csv			The data file containing original data download from the Geographic Names Information System containing GNIS IDs.
-  Colorado-DOLA-LocalGovt-IDs-Counties.csv	The data file that is a copy of the Department of Local Affairs' Local Government Information System website that contains local government IDs (DOLA_LG_ID). 
-  Colorado-Counties.geojson		Exported spatial data file from the Colorado Water Conservation Board Data Viewer's County layer.
-  Colorado-IBCC-Basins.geojson		Exported spatial data file from the Colorado Water Conservation Board Data Viewer's IBCC Basin layer.  
-  Colorado-County-Basin-Intersection.csv	Saved attribute table of the intersection of the county and IBCC basin geojson files that allows for determining the fraction of each IBCC basin within a particular county.
 doc/
   ?                             		Additional documentation for the dataset.
-analysis/                         		TSTool software command files used to process data into useful forms.
-  Process-xlsx-to-csv.TSTool			TSTool command file that processes the core dataset from .xlsx to .csv.
-  README.md                     		Explanation of TSTool command files used to process the core data into other products.
+.gitattributes                  		Git configuration file indicate repository configuration, in particular handling
+												of line-ending and binary files.
+.gitignore                      		Git configuration file to ignore files that should not be committed to the repository.
+README.md                     		Explanation of repository contents, data files and sources and TSTool command files used to process the core data into other products.
 ```
 
 ### Colorado-Counties.xlsx Contents ###
