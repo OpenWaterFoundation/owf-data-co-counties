@@ -10,25 +10,24 @@ OWF has created and is maintaining this dataset to facilitate work on various da
 The repository contains the following:
 
 ```text
-analysis/                         		TSTool software command files used to process data into useful forms.
-  Process-xlsx-to-csv.TSTool			TSTool command file that processes the core dataset from .xlsx to .csv.
-data-orig/					Folder containing original data files downloaded from agency websites.
-  Colorado-Counties-WGS84.geojson		Exported spatial data file from the Colorado Water Conservation Board Data Viewer's County layer, converted to WGS 84.  
-  Colorado-County-Basin-Intersection.csv	Saved attribute table of the intersection of the county and IBCC basin geojson files that allows for determining the fraction of each IBCC basin within a particular county.
-  Colorado-DOLA-LocalGovt-IDs-Counties.csv	The data file that is a copy of the Department of Local Affairs' Local Government Information System website that contains local government IDs (DOLA_LG_ID). 
-  Colorado-FIPS-Counties.txt			The data file containing original data download from the U.S. Census Bureau containing FIPS IDs.
-  Colorado-GNIS-Civil.csv			The data file containing original data download from the Geographic Names Information System containing GNIS IDs.
-  Colorado-IBCC-Basins-WGS84.geojson		Exported spatial data file from the Colorado Water Conservation Board Data Viewer's IBCC Basin layer, converted to WGS 84.
-data/                           		Folder containing data files.
-  Colorado-Counties.xlsx     		Simple Excel file containing core data.
-  Colorado-Counties.csv      		The Excel file contents from the County worksheet converted to a csv file, useful for automated processing.
-  County-Basin-Relate.csv		The Excel file contents from the County_Basin_Relate worksheet converted to a csv file, useful for automated processing.
+analysis/                                   TSTool software command files used to process data into useful forms.
+  Process-xlsx-to-csv.TSTool                TSTool command file that processes the core dataset from .xlsx to .csv.
+data-orig/                                  Folder containing original data files downloaded from agency websites.
+  Colorado-Counties-WGS84.geojson           Exported spatial data file from the Colorado Water Conservation Board Data Viewer's County layer, converted to WGS 84.  
+  Colorado-County-Basin-Intersection.csv    Saved attribute table of the intersection of the county and IBCC basin geojson files that allows for determining the fraction of each IBCC basin within a particular county.
+  Colorado-DOLA-LocalGovt-IDs-Counties.csv  The data file that is a copy of the Department of Local Affairs' Local Government Information System website that contains local government IDs (DOLA_LG_ID). 
+  Colorado-FIPS-Counties.txt                The data file containing original data download from the U.S. Census Bureau containing FIPS IDs.
+  Colorado-GNIS-Civil.csv                   The data file containing original data download from the Geographic Names Information System containing GNIS IDs.
+  Colorado-IBCC-Basins-WGS84.geojson        Exported spatial data file from the Colorado Water Conservation Board Data Viewer's IBCC Basin layer, converted to WGS 84.
+data/                                       Folder containing data files.
+  Colorado-Counties.xlsx                    Simple Excel file containing core data.
+  Colorado-Counties.csv                     The Excel file contents from the County worksheet converted to a csv file, useful for automated processing.
+  County-Basin-Relate.csv                   The Excel file contents from the County_Basin_Relate worksheet converted to a csv file, useful for automated processing.
 doc/
-  ?                             		Additional documentation for the dataset.
-.gitattributes                  		Git configuration file indicate repository configuration, in particular handling
-												of line-ending and binary files.
-.gitignore                      		Git configuration file to ignore files that should not be committed to the repository.
-README.md                     		Explanation of repository contents, data files and sources and TSTool command files used to process the core data into other products.
+  ?                                         Additional documentation for the dataset.
+.gitattributes                              Git configuration file indicate repository configuration, in particular handling of line-ending and binary files.
+.gitignore                                  Git configuration file to ignore files that should not be committed to the repository.
+README.md                                   Explanation of repository contents, data files and sources and TSTool command files used to process the core data into other products.
 ```
 
 ### Colorado-Counties.xlsx Contents ###
@@ -47,7 +46,7 @@ The core Excel workbook that serves as the master data contains the following da
 * **Num_IBCC_Basin** -- number of basins within the county's boundaries.  This is a quick way to determine if the county is in multiple basins.
 * **Comment** -- any other information about the county
 
-Each type of identifier also contains a data column of the same name with the word "Flag" added to the column name.  These columns are an indication of data status as it relates to missing data.  The following conventions are used:
+Each type of identifier also contains a data column of the same name with the word "_Flag" added to the column name.  These columns are an indication of data status as it relates to missing data.  The following conventions are used:
 * G = ID is a known/good value.  
 * g = ID is an estimated (but good) value.  The associated ID cell is also highlighted in yellow.
 * N = ID is not applicable for the county and a blank cell is expected.
@@ -91,11 +90,11 @@ The data sources for this dataset are listed below.
 ## How to Use the Data ##
 
 The Colorado Counties dataset provides a complete statewide list of counties assembled from multiple sources.  There are several unique identifiers for each county and the dataset allows cross-referencing the identifiers
-so that other datasets can be joined.  For example, the [Colorado Water Providers dataset](owf-data-co-municipal-water-providers) contains county names and can be used to link additional data.
+so that other datasets can be joined.  For example, the [Colorado Water Providers dataset](https://github.com/OpenWaterFoundation/owf-data-co-municipal-water-providers) contains county names and can be used to link additional data.
 
-The Excel or csv files can be used as tabular datasets as is, to create filtered lists or to link to other datasets.  Data-processing software such as TSTool can be used to link this dataset to other datasets.  Datasets can be used within GIS software to create maps.
+The Excel and csv files can be used as tabular datasets as is, to create filtered lists or to link to other datasets.  Data-processing software such as TSTool can be used to link this dataset to other datasets.  Datasets can be used within GIS software to create maps.
 
-The format and contents of the dataset will change over time.  It is recommended to save a copy of the dataset.
+The format and contents of the dataset will change over time.  It is recommended to save a copy of the dataset for local processing or to fix the version in time.
 
 ## License ##
 
