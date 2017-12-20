@@ -12,6 +12,9 @@ The repository contains the following:
 ```text
 analysis/                                   TSTool software command files used to process data into useful forms.
   Process-xlsx-to-csv.TSTool                TSTool command file that processes the core dataset from .xlsx to .csv.
+data-orig-process/                          Folder containing files, such as TSTool command files, for processing original data into usable formats
+  FIPS-Headings.csv                         Data file of column names needed to process FIPS data.
+  Process-original-data-to-csv.TSTool       TSTool command file that processes data either directly from websites or data files manually downloaded from websites to be incorporated into the main dataset
 data-orig/                                  Folder containing original data files downloaded from agency websites.
   Colorado-Counties-WGS84.geojson           Exported spatial data file from the Colorado Water Conservation Board Data Viewer's County layer, converted to WGS 84.  
   Colorado-County-Basin-Intersection.csv    Saved attribute table of the intersection of the county and IBCC basin geojson files that allows for determining the fraction of each IBCC basin within a particular county.
@@ -72,11 +75,11 @@ Other worksheets within the workbook contain the following:
 
 ### Colorado-Counties.csv Contents ###
 
-This file is the **County** worksheet saved in csv format.  To use this file, **do not** first open in Excel, because IDs that contain leading zeroes will not show those zeroes.  Instead, import the file into a blank Excel file by selecting Data/Get External Data/From Text.
+This file is the **County** worksheet saved in csv format.  Warning:  if this file is opened directly in Excel, IDs that contain leading zeroes will not show those zeroes.  Instead, import the file into a blank Excel file by selecting Data/Get External Data/From Text.
 
 ### County_Basin_Relate.csv Contents ###
 
-This file is the **County_Basin_Relate** worksheet saved in csv format.  To use this file, **do not** first open in Excel, because IDs that contain leading zeroes will not show those zeroes.  Instead, import the file into a blank Excel file by selecting Data/Get External Data/From Text.
+This file is the **County_Basin_Relate** worksheet saved in csv format.  Warning:  if this file is opened directly in Excel, IDs that contain leading zeroes will not show those zeroes.  Instead, import the file into a blank Excel file by selecting Data/Get External Data/From Text.
 
 ## Attribution ##
 
@@ -85,7 +88,7 @@ The data sources for this dataset are listed below.
 * Data available from the [U.S. Census Bureau](https://www.census.gov/geo/reference/codes/cou.html) includes municipal Federal Information Processing Standard (FIPS) codes.
 * The U.S. Geological Survey (USGS)'s [Geographic Names Information System (GNIS)](https://geonames.usgs.gov/apex/f?p=138:1:9185633219989) is the Federal and national standard for geographic nomenclature.  The USGS developed the GNIS in support of the U.S. Board on Geographic Names as the official repository of domestic geographic names data.  OWF manually cross-referenced the Feature Name column to the CountyName.
 * The Colorado Department of Local Affairs (DOLA)'s [Local Government Information System](https://dola.colorado.gov/lgis/counties.jsf) uses a local government ID (LG ID).  Data were copied directly from the website and pasted into Excel.  OWF manually cross-referenced the County Name to the CountyName.  OWF is using DOLA_LG_ID instead of LG ID to add more description to the identifier.
-* County and IBCC basin boundaries were found by accessing the Colorado Water Conservation Board's Data Viewer (https://www.coloradodnr.info/h5v/Index.html?viewer=cwcbviewer).  The "County" and "IBCC Basin" layers were downloaded and opened in QGIS, converted to WGS 84 (EPSG:4326) and saved in GeoJSON format.  A new shapefile of the intersection of the two layers was created to determine which basins are in each county and the fraction of each basin within each county.
+* County and IBCC basin boundaries were found by accessing the Colorado Water Conservation Board's [Data Viewer] (https://www.coloradodnr.info/h5v/Index.html?viewer=cwcbviewer).  The "County" and "IBCC Basin" layers were downloaded and opened in QGIS, converted to WGS 84 (EPSG:4326) and saved in GeoJSON format.  A new shapefile of the intersection of the two layers was created to determine which basins are in each county and the fraction of each basin within each county.
 
 ## How to Use the Data ##
 
