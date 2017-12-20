@@ -1,0 +1,33 @@
+# This command file downloads data from websites directly and processes the data into useful formats to be
+# incorporated into the Colorado Counties dataset.  The command file also processes data downloaded from websites
+# that had to first be downloaded manually or needed to be copied from a website and pasted into Excel.
+#
+# NOTE THAT THIS IS A WORK IN PROGRESS.  MORE COMMANDS WILL BE ADDED AS THE PROCESS IS FULLY STANDARDIZED.
+#
+# FIPS IDs
+# Get the data
+WebGet(URI="https://www2.census.gov/geo/docs/reference/codes/files/st08_co_cou.txt",LocalFile="County-FIPS-original.csv")
+# Data need column names; load in file of column names created for FIPS data and append column names to dataset  **THIS COULD BE IMPROVED UPON BY ADDING AN OPTION TO THE READTABLEFROMDELIMITEDFILE() COMMAND TO CREATE COLUMN NAMES
+AppendFile(InputFile="County-FIPS-original.csv",OutputFile="FIPS-Headings.csv")
+# Read in the new file with appended column names as a table
+ReadTableFromDelimitedFile(TableID="FIPS-Headings",InputFile="FIPS-Headings.csv",HeaderLines="1",TextColumns="StateFP,CountyFP")
+# Copy table to remove blank lines and rename
+CopyTable(TableID="FIPS-Headings",NewTableID="County-FIPS",ColumnExcludeFilters="State:")
+# Save table as CSV to be located in data-orig folder
+WriteTableToDelimitedFile(TableID="County-FIPS",OutputFile="..\data-orig\Colorado-FIPS-Counties.csv",WriteHeaderComments=False,NaNValue="Blank")
+# Remove original FIPS file to avoid confusion about multiple files
+RemoveFile(InputFile="County-FIPS-original.csv")
+# NEED TO GO BACK AND EDIT FIPS-HEADINGS FILE SO THAT IT JUST CONTAINS COLUMN HEADINGS AND NOTHING ELSE IN CASE PROCESS NEEDS TO BE RUN AGAIN
+#
+#
+# GNIS IDs
+# Note that WebGet() command will not work here; must download the data manually first from the website.
+# Further processing of GNIS data is not required at this point, so no processing steps for GNIS data are listed here.
+#
+#
+# PWS IDs
+# Note that WebGet() command will not work here; must download the data manually first from the website.
+# Further processing of PWS data is not required at this point, so no processing steps for PWS data are listed here.
+#
+#
+#
