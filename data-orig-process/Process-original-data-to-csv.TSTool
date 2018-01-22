@@ -25,9 +25,5 @@ RemoveFile(InputFile="County-FIPS-original.csv")
 # Further processing of GNIS data is not required at this point, so no processing steps for GNIS data are listed here.
 #
 #
-# PWS IDs
-# Note that WebGet() command will not work here; must download the data manually first from the website.
-# Further processing of PWS data is not required at this point, so no processing steps for PWS data are listed here.
-#
 #
 #
