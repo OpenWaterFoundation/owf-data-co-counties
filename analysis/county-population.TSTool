@@ -1,0 +1,86 @@
+# POPULATION BY COUNTY
+###################################################################################################
+# OBJECTIVES:
+# 1) Process the DOLA county population data into time series
+# 2) Create graphs to help review and quality control
+# 3) Output data into formats (such as CSV) that can be used for visualizations
+StartLog(LogFile="~$county-population.TSTool.log")
+####################################################################################################
+# 1) READ IN DATA -- this is DOLA (Department of Local Affairs)'s population forecasts (2000-2050)
+####################################################################################################
+#
+# a) Data were downloaded from DOLA's website (https://demography.dola.colorado.gov/population/population-totals-counties/#population-totals-for-colorado-counties)
+# Click on "1 year increments, 2000-2050" under "Population Forecasts - years (2000-2050)"
+# Data are saved in the data-orig folder
+ReadTableFromExcel(TableID="County-Population-DOLA-Forecast-original",NumberPrecision=0,InputFile="..\data-orig\DOLA-county-population.xlsx",ExcelAddress="a4:az71",ExcelColumnNames=FirstRowInRange,ColumnExcludeFilters="Counties:")
+#
+# Copy table and reconfigure to facilitate time series analyses; delete statewide values
+# This table contains counties in one column and each year in its own column, which can be used for some visualizations
+CopyTable(TableID="County-Population-DOLA-Forecast-original",NewTableID="County-Population-DOLA-Forecast-YearsInColumns",ColumnMap="Counties:County",ColumnExcludeFilters="Counties:*COLORADO")
+# Sort table to make sure it is in alphabetical order by county
+SortTable(TableID="County-Population-DOLA-Forecast-YearsInColumns",SortColumns="County")
+#
+# Reorganize table to have years within a single "Year" column to facilitate time series initialization
+CopyTable(TableID="County-Population-DOLA-Forecast-YearsInColumns",NewTableID="County-Population-DOLA-Forecast-YearsInSingleColumn_v1")
+SplitTableRow(TableID="County-Population-DOLA-Forecast-YearsInSingleColumn_v1",TupleColumns="2000;2001;2002;2003;2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2020;2021;2022;2023;2024;2025;2026;2027;2028;2029;2030;2031;2032;2033;2034;2035;2036;2037;2038;2039;2040;2041;2042;2043;2044;2045;2046;2047;2048;2049;2050",TupleDateTimes="2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050",NewTupleColumns="Population",NewTupleDateTimeColumn="Year",InsertBeforeColumn="2000",DeleteOriginalRow="True")
+#
+# Change format of Year column to be double instead of date/time so that data can be merged with other data in subsequent steps
+FormatTableDateTime(TableID="County-Population-DOLA-Forecast-YearsInSingleColumn_v1",InputColumn="Year",DateTimeFormat="%Y",OutputColumn="Year2",OutputType=Double,InsertBeforeColumn="Population")
+#
+# Copy table for use in calculating percent change in population; will be used later
+CopyTable(TableID="County-Population-DOLA-Forecast-YearsInColumns",NewTableID="County-Population-DOLA-Forecast-YearsInColumns_v2")
+SplitTableRow(TableID="County-Population-DOLA-Forecast-YearsInColumns_v2",TupleColumns="2017;2018;2019;2020;2021;2022;2023;2024;2025;2026;2027;2028;2029;2030;2031;2032;2033;2034;2035;2036;2037;2038;2039;2040;2041;2042;2043;2044;2045;2046;2047;2048;2049;2050",TupleDateTimes="2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050",NewTupleColumns="Population",NewTupleDateTimeColumn="Year",InsertBeforeColumn="2000",DeleteOriginalRow="True")
+#
+# Delete the "2000" through "2050" year columns to minimize confusion; sort table to make sure it is in alphabetical order by county
+DeleteTableColumns(TableID="County-Population-DOLA-Forecast-YearsInSingleColumn_v1",DeleteColumns="Year2,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050")
+# Sort table by year, then county.  Copy to a new table to reorder the columns.
+SortTable(TableID="County-Population-DOLA-Forecast-YearsInSingleColumn_v1",SortColumns="Year,County")
+CopyTable(TableID="County-Population-DOLA-Forecast-YearsInSingleColumn_v1",NewTableID="County-Population-DOLA-Forecast-YearsInSingleColumn",IncludeColumns="Year,County,Population")
+# Export to CSV format for heatmap visualization
+WriteTableToDelimitedFile(TableID="County-Population-DOLA-Forecast-YearsInSingleColumn",OutputFile="..\visualizations\county-population-heatmap\county-annual-population.csv",WriteHeaderComments=False)
+#
+# Check that there are 3264 rows (64 counties * 51 years) of data
+####################################################################################################
+# b) Create a table of county names to use in For() loops that will simplify time series processing
+CopyTable(TableID="County-Population-DOLA-Forecast-YearsInColumns",NewTableID="CountyNames",IncludeColumns="County")
+#
+####################################################################################################
+# 2) CALCULATE PERCENT CHANGE FROM 2007 TO 2017 AND PERCENT CHANGE FOR EACH FUTURE YEAR FROM 2017
+# Use the "Percent Change" table copied from earlier and delete all the years except 2017
+####################################################################################################
+# a) All counties
+CopyTable(TableID="County-Population-DOLA-Forecast-YearsInColumns_v2",NewTableID="County-Population-DOLA-Forecast-PercentChange_v1",ColumnMap="2017:Y2017")
+DeleteTableColumns(TableID="County-Population-DOLA-Forecast-PercentChange_v1",DeleteColumns="2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050")
+TableMath(TableID="County-Population-DOLA-Forecast-PercentChange_v1",Input1="Population",Operator="-",Input2="Y2017",Output="PercentChangea")
+TableMath(TableID="County-Population-DOLA-Forecast-PercentChange_v1",Input1="PercentChangea",Operator="/",Input2="Y2017",Output="PercentChangeb")
+TableMath(TableID="County-Population-DOLA-Forecast-PercentChange_v1",Input1="PercentChangeb",Operator="*",Input2="100",Output="PercentChangeSince2017")
+DeleteTableColumns(TableID="County-Population-DOLA-Forecast-PercentChange_v1",DeleteColumns="PercentChangea,PercentChangeb")
+#
+# Sort table by year, then by county, so that it can be used to create a heatmap
+SortTable(TableID="County-Population-DOLA-Forecast-PercentChange_v1",SortColumns="Year,County")
+# Copy table to reorder columns
+CopyTable(TableID="County-Population-DOLA-Forecast-PercentChange_v1",NewTableID="County-Population-DOLA-Forecast-PercentChange",IncludeColumns="Year,County,PercentChangeSince2017")
+# Export to CSV in order to make heatmap
+WriteTableToDelimitedFile(TableID="County-Population-DOLA-Forecast-PercentChange",OutputFile="..\visualizations\county-population-percentchange-heatmap\county-annual-population-percentchange.csv",WriteHeaderComments=False,NaNValue="Blank")
+#
+# b) South Platte and Metro basins only
+# Read in table of basin designations for each county
+ReadTableFromDelimitedFile(TableID="Basins",InputFile="..\data-orig\county-basin-fractions.csv",HeaderLines="1")
+#
+CopyTable(TableID="County-Population-DOLA-Forecast-PercentChange",NewTableID="County-Population-DOLA-Forecast-PercentChange-SPBasin_v1")
+JoinTables(TableID="County-Population-DOLA-Forecast-PercentChange-SPBasin_v1",TableToJoinID="Basins",JoinColumns="County:County",IncludeColumns="Basin")
+# Copy table to filter out South Platte and Metro basins, then merge tables back together
+CopyTable(TableID="County-Population-DOLA-Forecast-PercentChange-SPBasin_v1",NewTableID="County-Population-DOLA-Forecast-PercentChange-SPBasin",ColumnFilters="Basin:*South Platte*")
+CopyTable(TableID="County-Population-DOLA-Forecast-PercentChange-SPBasin_v1",NewTableID="County-Population-DOLA-Forecast-PercentChange-MetBasin",ColumnFilters="Basin:*Metro*")
+AppendTable(TableID="County-Population-DOLA-Forecast-PercentChange-SPBasin",AppendTableID="County-Population-DOLA-Forecast-PercentChange-MetBasin")
+SortTable(TableID="County-Population-DOLA-Forecast-PercentChange-SPBasin",SortColumns="Year,County")
+#
+# Export to CSV for a South Platte/Metro-specific heat map
+WriteTableToDelimitedFile(TableID="County-Population-DOLA-Forecast-PercentChange-SPBasin",OutputFile="..\visualizations\county-population-percentchange-southplatte-heatmap\county-annual-population-percentchange-southplatte.csv",WriteHeaderComments=False,NaNValue="Blank")
+####################################################################################################
+# 3) CREATE TIME SERIES OF THE DOLA DATA
+####################################################################################################
+#
+TableToTimeSeries(TableID="County-Population-DOLA-Forecast-YearsInSingleColumn",DateTimeColumn="Year",DateTimeFormat="%Y",LocationColumn="County",LocationType="County",ValueColumn="Population",DataSource="DOLA2018",DataType="Population",Interval=Year,Scenario="Forecast",Units="Persons",Alias="County:%L-population-forecast")
+####################################################################################################
+#

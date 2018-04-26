@@ -1,0 +1,783 @@
+"Year","County","PercentChangeSince2017","Basin"
+2017,Adams,0.0000,Metro
+2017,Arapahoe,0.0000,Metro
+2017,Boulder,0.0000,South Platte
+2017,Broomfield,0.0000,Metro
+2017,Cheyenne,0.0000,"South Platte, Arkansas"
+2017,Clear Creek,0.0000,South Platte
+2017,Denver,0.0000,Metro
+2017,Douglas,0.0000,Metro
+2017,Elbert,0.0000,"Metro, Arkansas"
+2017,Gilpin,0.0000,South Platte
+2017,Jefferson,0.0000,Metro
+2017,Kit Carson,0.0000,South Platte
+2017,Larimer,0.0000,South Platte
+2017,Lincoln,0.0000,"Arkansas, South Platte"
+2017,Logan,0.0000,South Platte
+2017,Morgan,0.0000,South Platte
+2017,Park,0.0000,South Platte
+2017,Phillips,0.0000,South Platte
+2017,Sedgwick,0.0000,South Platte
+2017,Teller,0.0000,"Arkansas, South Platte"
+2017,Washington,0.0000,South Platte
+2017,Weld,0.0000,South Platte
+2017,Yuma,0.0000,South Platte
+2018,Adams,2.1444,Metro
+2018,Arapahoe,1.4673,Metro
+2018,Boulder,1.1068,South Platte
+2018,Broomfield,3.4050,Metro
+2018,Cheyenne,-0.0927,"South Platte, Arkansas"
+2018,Clear Creek,0.6540,South Platte
+2018,Denver,1.4311,Metro
+2018,Douglas,1.7549,Metro
+2018,Elbert,4.8731,"Metro, Arkansas"
+2018,Gilpin,0.5436,South Platte
+2018,Jefferson,1.1979,Metro
+2018,Kit Carson,0.0166,South Platte
+2018,Larimer,1.7654,South Platte
+2018,Lincoln,1.0946,"Arkansas, South Platte"
+2018,Logan,1.1674,South Platte
+2018,Morgan,0.9950,South Platte
+2018,Park,1.8112,South Platte
+2018,Phillips,0.0594,South Platte
+2018,Sedgwick,-0.3926,South Platte
+2018,Teller,1.9956,"Arkansas, South Platte"
+2018,Washington,0.3149,South Platte
+2018,Weld,3.4378,South Platte
+2018,Yuma,0.5743,South Platte
+2019,Adams,4.3126,Metro
+2019,Arapahoe,3.0212,Metro
+2019,Boulder,2.2145,South Platte
+2019,Broomfield,6.8465,Metro
+2019,Cheyenne,-0.1699,"South Platte, Arkansas"
+2019,Clear Creek,1.2826,South Platte
+2019,Denver,2.8704,Metro
+2019,Douglas,3.4607,Metro
+2019,Elbert,9.7898,"Metro, Arkansas"
+2019,Gilpin,1.0212,South Platte
+2019,Jefferson,2.3976,Metro
+2019,Kit Carson,0.1567,South Platte
+2019,Larimer,3.5169,South Platte
+2019,Lincoln,2.3339,"Arkansas, South Platte"
+2019,Logan,2.3180,South Platte
+2019,Morgan,1.9911,South Platte
+2019,Park,3.5966,South Platte
+2019,Phillips,0.1333,South Platte
+2019,Sedgwick,-0.8167,South Platte
+2019,Teller,3.9850,"Arkansas, South Platte"
+2019,Washington,0.6222,South Platte
+2019,Weld,6.8973,South Platte
+2019,Yuma,1.1285,South Platte
+2020,Adams,6.5038,Metro
+2020,Arapahoe,4.5840,Metro
+2020,Boulder,3.3288,South Platte
+2020,Broomfield,10.3203,Metro
+2020,Cheyenne,-0.2235,"South Platte, Arkansas"
+2020,Clear Creek,1.8889,South Platte
+2020,Denver,4.3077,Metro
+2020,Douglas,5.1643,Metro
+2020,Elbert,14.3550,"Metro, Arkansas"
+2020,Gilpin,1.4514,South Platte
+2020,Jefferson,3.5984,Metro
+2020,Kit Carson,0.3526,South Platte
+2020,Larimer,5.2694,South Platte
+2020,Lincoln,3.8339,"Arkansas, South Platte"
+2020,Logan,3.4511,South Platte
+2020,Morgan,2.9911,South Platte
+2020,Park,5.3535,South Platte
+2020,Phillips,0.2288,South Platte
+2020,Sedgwick,-1.2734,South Platte
+2020,Teller,5.9698,"Arkansas, South Platte"
+2020,Washington,0.9102,South Platte
+2020,Weld,10.3784,South Platte
+2020,Yuma,1.6581,South Platte
+2021,Adams,8.7170,Metro
+2021,Arapahoe,6.1538,Metro
+2021,Boulder,4.4506,South Platte
+2021,Broomfield,13.8242,Metro
+2021,Cheyenne,-0.2648,"South Platte, Arkansas"
+2021,Clear Creek,2.4736,South Platte
+2021,Denver,5.7526,Metro
+2021,Douglas,6.9486,Metro
+2021,Elbert,18.5710,"Metro, Arkansas"
+2021,Gilpin,1.8367,South Platte
+2021,Jefferson,4.6188,Metro
+2021,Kit Carson,0.7411,South Platte
+2021,Larimer,7.0254,South Platte
+2021,Lincoln,5.2629,"Arkansas, South Platte"
+2021,Logan,4.5677,South Platte
+2021,Morgan,3.9934,South Platte
+2021,Park,7.0814,South Platte
+2021,Phillips,0.3626,South Platte
+2021,Sedgwick,-1.6317,South Platte
+2021,Teller,7.5355,"Arkansas, South Platte"
+2021,Washington,1.2842,South Platte
+2021,Weld,14.0472,South Platte
+2021,Yuma,2.1545,South Platte
+2022,Adams,10.9509,Metro
+2022,Arapahoe,7.7291,Metro
+2022,Boulder,5.5809,South Platte
+2022,Broomfield,17.3575,Metro
+2022,Cheyenne,-0.3003,"South Platte, Arkansas"
+2022,Clear Creek,3.0335,South Platte
+2022,Denver,7.3523,Metro
+2022,Douglas,8.8123,Metro
+2022,Elbert,23.2029,"Metro, Arkansas"
+2022,Gilpin,2.1804,South Platte
+2022,Jefferson,5.6313,Metro
+2022,Kit Carson,1.1857,South Platte
+2022,Larimer,8.9069,South Platte
+2022,Lincoln,6.9078,"Arkansas, South Platte"
+2022,Logan,5.6646,South Platte
+2022,Morgan,5.0016,South Platte
+2022,Park,8.7797,South Platte
+2022,Phillips,0.5377,South Platte
+2022,Sedgwick,-1.8837,South Platte
+2022,Teller,9.0924,"Arkansas, South Platte"
+2022,Washington,1.6392,South Platte
+2022,Weld,17.9090,South Platte
+2022,Yuma,2.6161,South Platte
+2023,Adams,13.2042,Metro
+2023,Arapahoe,9.3102,Metro
+2023,Boulder,6.8767,South Platte
+2023,Broomfield,20.9142,Metro
+2023,Cheyenne,-0.3223,"South Platte, Arkansas"
+2023,Clear Creek,3.5653,South Platte
+2023,Denver,9.1135,Metro
+2023,Douglas,10.7003,Metro
+2023,Elbert,27.8610,"Metro, Arkansas"
+2023,Gilpin,2.4964,South Platte
+2023,Jefferson,6.6360,Metro
+2023,Kit Carson,1.6810,South Platte
+2023,Larimer,10.7971,South Platte
+2023,Lincoln,8.2893,"Arkansas, South Platte"
+2023,Logan,6.7437,South Platte
+2023,Morgan,6.0158,South Platte
+2023,Park,10.4470,South Platte
+2023,Phillips,0.7076,South Platte
+2023,Sedgwick,-1.8216,South Platte
+2023,Teller,10.6392,"Arkansas, South Platte"
+2023,Washington,1.9704,South Platte
+2023,Weld,21.7988,South Platte
+2023,Yuma,3.0331,South Platte
+2024,Adams,15.4749,Metro
+2024,Arapahoe,10.8977,Metro
+2024,Boulder,8.1793,South Platte
+2024,Broomfield,24.4879,Metro
+2024,Cheyenne,-0.3198,"South Platte, Arkansas"
+2024,Clear Creek,4.0703,South Platte
+2024,Denver,11.0384,Metro
+2024,Douglas,12.5829,Metro
+2024,Elbert,32.9293,"Metro, Arkansas"
+2024,Gilpin,2.7909,South Platte
+2024,Jefferson,7.4541,Metro
+2024,Kit Carson,2.2249,South Platte
+2024,Larimer,12.6838,South Platte
+2024,Lincoln,9.5835,"Arkansas, South Platte"
+2024,Logan,7.8056,South Platte
+2024,Morgan,7.0369,South Platte
+2024,Park,12.0854,South Platte
+2024,Phillips,0.8775,South Platte
+2024,Sedgwick,-1.9521,South Platte
+2024,Teller,12.1648,"Arkansas, South Platte"
+2024,Washington,2.2840,South Platte
+2024,Weld,25.8357,South Platte
+2024,Yuma,3.4658,South Platte
+2025,Adams,17.7610,Metro
+2025,Arapahoe,12.4929,Metro
+2025,Boulder,9.4908,South Platte
+2025,Broomfield,28.0755,Metro
+2025,Cheyenne,-0.2943,"South Platte, Arkansas"
+2025,Clear Creek,4.5550,South Platte
+2025,Denver,13.1338,Metro
+2025,Douglas,14.4677,Metro
+2025,Elbert,38.0131,"Metro, Arkansas"
+2025,Gilpin,3.0702,South Platte
+2025,Jefferson,8.2574,Metro
+2025,Kit Carson,2.8177,South Platte
+2025,Larimer,14.5664,South Platte
+2025,Lincoln,10.9728,"Arkansas, South Platte"
+2025,Logan,8.8562,South Platte
+2025,Morgan,8.0792,South Platte
+2025,Park,13.6997,South Platte
+2025,Phillips,1.0521,South Platte
+2025,Sedgwick,-2.0172,South Platte
+2025,Teller,13.4699,"Arkansas, South Platte"
+2025,Washington,2.5840,South Platte
+2025,Weld,29.9107,South Platte
+2025,Yuma,3.8703,South Platte
+2026,Adams,20.0596,Metro
+2026,Arapahoe,14.0952,Metro
+2026,Boulder,10.8113,South Platte
+2026,Broomfield,31.6734,Metro
+2026,Cheyenne,-0.2454,"South Platte, Arkansas"
+2026,Clear Creek,5.2935,South Platte
+2026,Denver,15.2443,Metro
+2026,Douglas,16.3548,Metro
+2026,Elbert,44.2647,"Metro, Arkansas"
+2026,Gilpin,3.1769,South Platte
+2026,Jefferson,9.0445,Metro
+2026,Kit Carson,3.4636,South Platte
+2026,Larimer,16.4454,South Platte
+2026,Lincoln,12.5445,"Arkansas, South Platte"
+2026,Logan,9.9025,South Platte
+2026,Morgan,9.2369,South Platte
+2026,Park,15.5813,South Platte
+2026,Phillips,1.2287,South Platte
+2026,Sedgwick,-2.1186,South Platte
+2026,Teller,14.5446,"Arkansas, South Platte"
+2026,Washington,2.8695,South Platte
+2026,Weld,34.0252,South Platte
+2026,Yuma,4.2574,South Platte
+2027,Adams,22.3683,Metro
+2027,Arapahoe,15.6978,Metro
+2027,Boulder,12.1354,South Platte
+2027,Broomfield,35.2930,Metro
+2027,Cheyenne,-0.1940,"South Platte, Arkansas"
+2027,Clear Creek,6.1472,South Platte
+2027,Denver,17.3346,Metro
+2027,Douglas,18.2106,Metro
+2027,Elbert,49.7348,"Metro, Arkansas"
+2027,Gilpin,3.2754,South Platte
+2027,Jefferson,9.8117,Metro
+2027,Kit Carson,4.1818,South Platte
+2027,Larimer,18.2958,South Platte
+2027,Lincoln,14.1894,"Arkansas, South Platte"
+2027,Logan,10.9420,South Platte
+2027,Morgan,10.4914,South Platte
+2027,Park,17.7356,South Platte
+2027,Phillips,1.2855,South Platte
+2027,Sedgwick,-2.4622,South Platte
+2027,Teller,15.5931,"Arkansas, South Platte"
+2027,Washington,3.1634,South Platte
+2027,Weld,38.1777,South Platte
+2027,Yuma,4.5673,South Platte
+2028,Adams,24.6838,Metro
+2028,Arapahoe,17.3002,Metro
+2028,Boulder,13.3038,South Platte
+2028,Broomfield,38.9306,Metro
+2028,Cheyenne,-0.1403,"South Platte, Arkansas"
+2028,Clear Creek,7.1209,South Platte
+2028,Denver,19.2438,Metro
+2028,Douglas,19.9970,Metro
+2028,Elbert,55.1820,"Metro, Arkansas"
+2028,Gilpin,3.3770,South Platte
+2028,Jefferson,10.5576,Metro
+2028,Kit Carson,4.9026,South Platte
+2028,Larimer,20.0552,South Platte
+2028,Lincoln,15.6318,"Arkansas, South Platte"
+2028,Logan,11.9729,South Platte
+2028,Morgan,11.8447,South Platte
+2028,Park,19.8425,South Platte
+2028,Phillips,1.5030,South Platte
+2028,Sedgwick,-2.6917,South Platte
+2028,Teller,16.6125,"Arkansas, South Platte"
+2028,Washington,3.4674,South Platte
+2028,Weld,42.3662,South Platte
+2028,Yuma,4.9660,South Platte
+2029,Adams,27.0029,Metro
+2029,Arapahoe,18.9009,Metro
+2029,Boulder,14.5627,South Platte
+2029,Broomfield,39.5881,Metro
+2029,Cheyenne,-0.0857,"South Platte, Arkansas"
+2029,Clear Creek,8.1134,South Platte
+2029,Denver,20.9657,Metro
+2029,Douglas,21.7667,Metro
+2029,Elbert,60.2111,"Metro, Arkansas"
+2029,Gilpin,3.4889,South Platte
+2029,Jefferson,11.2820,Metro
+2029,Kit Carson,5.6362,South Platte
+2029,Larimer,21.8080,South Platte
+2029,Lincoln,17.2932,"Arkansas, South Platte"
+2029,Logan,12.9980,South Platte
+2029,Morgan,13.2957,South Platte
+2029,Park,21.9305,South Platte
+2029,Phillips,1.2931,South Platte
+2029,Sedgwick,-2.7055,South Platte
+2029,Teller,17.6016,"Arkansas, South Platte"
+2029,Washington,3.7729,South Platte
+2029,Weld,46.5884,South Platte
+2029,Yuma,5.3066,South Platte
+2030,Adams,29.3227,Metro
+2030,Arapahoe,20.4967,Metro
+2030,Boulder,15.8167,South Platte
+2030,Broomfield,40.1810,Metro
+2030,Cheyenne,-0.2991,"South Platte, Arkansas"
+2030,Clear Creek,9.1260,South Platte
+2030,Denver,22.4950,Metro
+2030,Douglas,23.5069,Metro
+2030,Elbert,65.1927,"Metro, Arkansas"
+2030,Gilpin,3.6192,South Platte
+2030,Jefferson,11.9822,Metro
+2030,Kit Carson,6.3920,South Platte
+2030,Larimer,23.5507,South Platte
+2030,Lincoln,18.8275,"Arkansas, South Platte"
+2030,Logan,14.0175,South Platte
+2030,Morgan,14.7539,South Platte
+2030,Park,23.9971,South Platte
+2030,Phillips,1.3678,South Platte
+2030,Sedgwick,-2.9890,South Platte
+2030,Teller,18.5745,"Arkansas, South Platte"
+2030,Washington,4.0729,South Platte
+2030,Weld,50.8423,South Platte
+2030,Yuma,5.7008,South Platte
+2031,Adams,31.6402,Metro
+2031,Arapahoe,22.0846,Metro
+2031,Boulder,17.0646,South Platte
+2031,Broomfield,40.7012,Metro
+2031,Cheyenne,-0.7982,"South Platte, Arkansas"
+2031,Clear Creek,10.1535,South Platte
+2031,Denver,23.8316,Metro
+2031,Douglas,25.2049,Metro
+2031,Elbert,70.1181,"Metro, Arkansas"
+2031,Gilpin,4.1004,South Platte
+2031,Jefferson,12.6552,Metro
+2031,Kit Carson,7.1726,South Platte
+2031,Larimer,25.2825,South Platte
+2031,Lincoln,20.4216,"Arkansas, South Platte"
+2031,Logan,15.0298,South Platte
+2031,Morgan,16.2234,South Platte
+2031,Park,25.9367,South Platte
+2031,Phillips,1.4520,South Platte
+2031,Sedgwick,-3.3140,South Platte
+2031,Teller,19.5336,"Arkansas, South Platte"
+2031,Washington,4.3594,South Platte
+2031,Weld,55.1249,South Platte
+2031,Yuma,6.0321,South Platte
+2032,Adams,33.9525,Metro
+2032,Arapahoe,23.6612,Metro
+2032,Boulder,18.3031,South Platte
+2032,Broomfield,41.1434,Metro
+2032,Cheyenne,-1.3078,"South Platte, Arkansas"
+2032,Clear Creek,11.1986,South Platte
+2032,Denver,25.0529,Metro
+2032,Douglas,26.8522,Metro
+2032,Elbert,74.9855,"Metro, Arkansas"
+2032,Gilpin,4.7731,South Platte
+2032,Jefferson,13.2986,Metro
+2032,Kit Carson,7.9762,South Platte
+2032,Larimer,27.0080,South Platte
+2032,Lincoln,22.0346,"Arkansas, South Platte"
+2032,Logan,16.0310,South Platte
+2032,Morgan,17.7065,South Platte
+2032,Park,27.7464,South Platte
+2032,Phillips,1.3303,South Platte
+2032,Sedgwick,-3.2734,South Platte
+2032,Teller,20.4761,"Arkansas, South Platte"
+2032,Washington,4.4251,South Platte
+2032,Weld,59.5180,South Platte
+2032,Yuma,6.4010,South Platte
+2033,Adams,36.2568,Metro
+2033,Arapahoe,25.2232,Metro
+2033,Boulder,19.5297,South Platte
+2033,Broomfield,41.5077,Metro
+2033,Cheyenne,-1.8270,"South Platte, Arkansas"
+2033,Clear Creek,12.2647,South Platte
+2033,Denver,26.1611,Metro
+2033,Douglas,28.4386,Metro
+2033,Elbert,79.7811,"Metro, Arkansas"
+2033,Gilpin,5.4701,South Platte
+2033,Jefferson,13.9131,Metro
+2033,Kit Carson,8.8066,South Platte
+2033,Larimer,28.7201,South Platte
+2033,Lincoln,23.6165,"Arkansas, South Platte"
+2033,Logan,17.0183,South Platte
+2033,Morgan,19.2908,South Platte
+2033,Park,29.4218,South Platte
+2033,Phillips,1.3603,South Platte
+2033,Sedgwick,-3.5284,South Platte
+2033,Teller,21.3972,"Arkansas, South Platte"
+2033,Washington,4.2640,South Platte
+2033,Weld,64.0203,South Platte
+2033,Yuma,6.7842,South Platte
+2034,Adams,38.5507,Metro
+2034,Arapahoe,26.7697,Metro
+2034,Boulder,20.7414,South Platte
+2034,Broomfield,41.7933,Metro
+2034,Cheyenne,-2.3605,"South Platte, Arkansas"
+2034,Clear Creek,13.3453,South Platte
+2034,Denver,27.1589,Metro
+2034,Douglas,29.9880,Metro
+2034,Elbert,84.5003,"Metro, Arkansas"
+2034,Gilpin,6.1870,South Platte
+2034,Jefferson,14.5010,Metro
+2034,Kit Carson,9.6670,South Platte
+2034,Larimer,30.4208,South Platte
+2034,Lincoln,25.0912,"Arkansas, South Platte"
+2034,Logan,17.9935,South Platte
+2034,Morgan,20.8870,South Platte
+2034,Park,30.9592,South Platte
+2034,Phillips,1.3088,South Platte
+2034,Sedgwick,-3.8728,South Platte
+2034,Teller,22.3047,"Arkansas, South Platte"
+2034,Washington,3.8753,South Platte
+2034,Weld,68.5470,South Platte
+2034,Yuma,7.1869,South Platte
+2035,Adams,40.8322,Metro
+2035,Arapahoe,28.2987,Metro
+2035,Boulder,21.9365,South Platte
+2035,Broomfield,41.9970,Metro
+2035,Cheyenne,-2.9025,"South Platte, Arkansas"
+2035,Clear Creek,14.4361,South Platte
+2035,Denver,28.0476,Metro
+2035,Douglas,31.4931,Metro
+2035,Elbert,89.1374,"Metro, Arkansas"
+2035,Gilpin,6.9204,South Platte
+2035,Jefferson,15.0580,Metro
+2035,Kit Carson,10.5476,South Platte
+2035,Larimer,32.1092,South Platte
+2035,Lincoln,26.9518,"Arkansas, South Platte"
+2035,Logan,18.9571,South Platte
+2035,Morgan,22.5838,South Platte
+2035,Park,32.3563,South Platte
+2035,Phillips,1.3215,South Platte
+2035,Sedgwick,-4.0006,South Platte
+2035,Teller,23.1809,"Arkansas, South Platte"
+2035,Washington,3.4720,South Platte
+2035,Weld,73.0956,South Platte
+2035,Yuma,7.6004,South Platte
+2036,Adams,43.0995,Metro
+2036,Arapahoe,29.8876,Metro
+2036,Boulder,23.1125,South Platte
+2036,Broomfield,42.1205,Metro
+2036,Cheyenne,-3.4508,"South Platte, Arkansas"
+2036,Clear Creek,15.5344,South Platte
+2036,Denver,28.8298,Metro
+2036,Douglas,32.9492,Metro
+2036,Elbert,93.6874,"Metro, Arkansas"
+2036,Gilpin,7.3282,South Platte
+2036,Jefferson,15.5835,Metro
+2036,Kit Carson,11.4422,South Platte
+2036,Larimer,33.7839,South Platte
+2036,Lincoln,28.6553,"Arkansas, South Platte"
+2036,Logan,19.9083,South Platte
+2036,Morgan,24.2865,South Platte
+2036,Park,33.6106,South Platte
+2036,Phillips,1.2075,South Platte
+2036,Sedgwick,-4.2637,South Platte
+2036,Teller,24.0286,"Arkansas, South Platte"
+2036,Washington,3.0549,South Platte
+2036,Weld,77.6645,South Platte
+2036,Yuma,7.9736,South Platte
+2037,Adams,45.3530,Metro
+2037,Arapahoe,31.4622,Metro
+2037,Boulder,24.2696,South Platte
+2037,Broomfield,42.1710,Metro
+2037,Cheyenne,-4.0015,"South Platte, Arkansas"
+2037,Clear Creek,16.6401,South Platte
+2037,Denver,29.5624,Metro
+2037,Douglas,34.3504,Metro
+2037,Elbert,98.1569,"Metro, Arkansas"
+2037,Gilpin,7.7472,South Platte
+2037,Jefferson,16.0828,Metro
+2037,Kit Carson,12.3459,South Platte
+2037,Larimer,35.4493,South Platte
+2037,Lincoln,30.2916,"Arkansas, South Platte"
+2037,Logan,20.8481,South Platte
+2037,Morgan,26.0858,South Platte
+2037,Park,34.6236,South Platte
+2037,Phillips,1.2873,South Platte
+2037,Sedgwick,-4.3593,South Platte
+2037,Teller,24.8472,"Arkansas, South Platte"
+2037,Washington,2.6279,South Platte
+2037,Weld,82.1038,South Platte
+2037,Yuma,8.4438,South Platte
+2038,Adams,47.5922,Metro
+2038,Arapahoe,33.0228,Metro
+2038,Boulder,25.4068,South Platte
+2038,Broomfield,42.1558,Metro
+2038,Cheyenne,-4.5532,"South Platte, Arkansas"
+2038,Clear Creek,17.7505,South Platte
+2038,Denver,30.2499,Metro
+2038,Douglas,35.6326,Metro
+2038,Elbert,102.5506,"Metro, Arkansas"
+2038,Gilpin,8.1761,South Platte
+2038,Jefferson,16.5566,Metro
+2038,Kit Carson,13.2556,South Platte
+2038,Larimer,37.1038,South Platte
+2038,Lincoln,31.9345,"Arkansas, South Platte"
+2038,Logan,21.7754,South Platte
+2038,Morgan,27.8927,South Platte
+2038,Park,35.3964,South Platte
+2038,Phillips,1.3006,South Platte
+2038,Sedgwick,-4.4133,South Platte
+2038,Teller,25.6411,"Arkansas, South Platte"
+2038,Washington,2.1956,South Platte
+2038,Weld,86.5604,South Platte
+2038,Yuma,8.7741,South Platte
+2039,Adams,49.8171,Metro
+2039,Arapahoe,34.3300,Metro
+2039,Boulder,26.5235,South Platte
+2039,Broomfield,42.0838,Metro
+2039,Cheyenne,-5.1063,"South Platte, Arkansas"
+2039,Clear Creek,18.8657,South Platte
+2039,Denver,30.8966,Metro
+2039,Douglas,36.8232,Metro
+2039,Elbert,106.8675,"Metro, Arkansas"
+2039,Gilpin,8.4413,South Platte
+2039,Jefferson,17.0071,Metro
+2039,Kit Carson,14.1645,South Platte
+2039,Larimer,38.7502,South Platte
+2039,Lincoln,33.7116,"Arkansas, South Platte"
+2039,Logan,22.6922,South Platte
+2039,Morgan,29.7040,South Platte
+2039,Park,35.9295,South Platte
+2039,Phillips,1.0864,South Platte
+2039,Sedgwick,-4.7812,South Platte
+2039,Teller,26.4152,"Arkansas, South Platte"
+2039,Washington,1.7638,South Platte
+2039,Weld,91.0008,South Platte
+2039,Yuma,9.2119,South Platte
+2040,Adams,52.0281,Metro
+2040,Arapahoe,35.6168,Metro
+2040,Boulder,27.6201,South Platte
+2040,Broomfield,41.9623,Metro
+2040,Cheyenne,-5.6643,"South Platte, Arkansas"
+2040,Clear Creek,19.9875,South Platte
+2040,Denver,31.5064,Metro
+2040,Douglas,37.9212,Metro
+2040,Elbert,111.1102,"Metro, Arkansas"
+2040,Gilpin,8.7104,South Platte
+2040,Jefferson,17.4363,Metro
+2040,Kit Carson,15.0752,South Platte
+2040,Larimer,40.4488,South Platte
+2040,Lincoln,35.3122,"Arkansas, South Platte"
+2040,Logan,23.6008,South Platte
+2040,Morgan,31.5221,South Platte
+2040,Park,36.2248,South Platte
+2040,Phillips,1.0812,South Platte
+2040,Sedgwick,-4.7256,South Platte
+2040,Teller,27.1765,"Arkansas, South Platte"
+2040,Washington,1.3394,South Platte
+2040,Weld,95.4249,South Platte
+2040,Yuma,9.5293,South Platte
+2041,Adams,54.2259,Metro
+2041,Arapahoe,36.6441,Metro
+2041,Boulder,28.6961,South Platte
+2041,Broomfield,41.7988,Metro
+2041,Cheyenne,-6.2293,"South Platte, Arkansas"
+2041,Clear Creek,21.1173,South Platte
+2041,Denver,32.0764,Metro
+2041,Douglas,38.9271,Metro
+2041,Elbert,115.2834,"Metro, Arkansas"
+2041,Gilpin,8.9797,South Platte
+2041,Jefferson,17.8464,Metro
+2041,Kit Carson,15.9912,South Platte
+2041,Larimer,42.2017,South Platte
+2041,Lincoln,36.9133,"Arkansas, South Platte"
+2041,Logan,24.5014,South Platte
+2041,Morgan,33.3474,South Platte
+2041,Park,36.2840,South Platte
+2041,Phillips,1.0986,South Platte
+2041,Sedgwick,-4.6503,South Platte
+2041,Teller,27.9331,"Arkansas, South Platte"
+2041,Washington,0.9271,South Platte
+2041,Weld,99.8663,South Platte
+2041,Yuma,9.8423,South Platte
+2042,Adams,56.5141,Metro
+2042,Arapahoe,37.0829,Metro
+2042,Boulder,29.7488,South Platte
+2042,Broomfield,41.5988,Metro
+2042,Cheyenne,-6.8033,"South Platte, Arkansas"
+2042,Clear Creek,22.2538,South Platte
+2042,Denver,32.6049,Metro
+2042,Douglas,39.8405,Metro
+2042,Elbert,119.3892,"Metro, Arkansas"
+2042,Gilpin,9.2444,South Platte
+2042,Jefferson,18.2020,Metro
+2042,Kit Carson,16.9117,South Platte
+2042,Larimer,43.9438,South Platte
+2042,Lincoln,38.5108,"Arkansas, South Platte"
+2042,Logan,25.3930,South Platte
+2042,Morgan,35.1794,South Platte
+2042,Park,36.3120,South Platte
+2042,Phillips,1.1380,South Platte
+2042,Sedgwick,-4.5556,South Platte
+2042,Teller,28.6870,"Arkansas, South Platte"
+2042,Washington,0.5264,South Platte
+2042,Weld,104.3683,South Platte
+2042,Yuma,10.1482,South Platte
+2043,Adams,58.7959,Metro
+2043,Arapahoe,37.4759,Metro
+2043,Boulder,30.7789,South Platte
+2043,Broomfield,41.3700,Metro
+2043,Cheyenne,-7.3846,"South Platte, Arkansas"
+2043,Clear Creek,23.3994,South Platte
+2043,Denver,33.0909,Metro
+2043,Douglas,40.6641,Metro
+2043,Elbert,123.4332,"Metro, Arkansas"
+2043,Gilpin,9.5035,South Platte
+2043,Jefferson,18.5050,Metro
+2043,Kit Carson,17.8398,South Platte
+2043,Larimer,45.6747,South Platte
+2043,Lincoln,40.1047,"Arkansas, South Platte"
+2043,Logan,26.2778,South Platte
+2043,Morgan,37.0214,South Platte
+2043,Park,36.3141,South Platte
+2043,Phillips,1.2041,South Platte
+2043,Sedgwick,-4.4435,South Platte
+2043,Teller,29.4529,"Arkansas, South Platte"
+2043,Washington,0.1435,South Platte
+2043,Weld,108.8833,South Platte
+2043,Yuma,10.4499,South Platte
+2044,Adams,61.0730,Metro
+2044,Arapahoe,37.8240,Metro
+2044,Boulder,31.7874,South Platte
+2044,Broomfield,41.1194,Metro
+2044,Cheyenne,-7.9719,"South Platte, Arkansas"
+2044,Clear Creek,24.5543,South Platte
+2044,Denver,33.5345,Metro
+2044,Douglas,41.4020,Metro
+2044,Elbert,127.4209,"Metro, Arkansas"
+2044,Gilpin,9.7556,South Platte
+2044,Jefferson,18.7575,Metro
+2044,Kit Carson,18.7795,South Platte
+2044,Larimer,47.3939,South Platte
+2044,Lincoln,41.6930,"Arkansas, South Platte"
+2044,Logan,27.1556,South Platte
+2044,Morgan,38.8749,South Platte
+2044,Park,36.2941,South Platte
+2044,Phillips,1.2950,South Platte
+2044,Sedgwick,-4.3158,South Platte
+2044,Teller,30.2213,"Arkansas, South Platte"
+2044,Washington,-0.2216,South Platte
+2044,Weld,113.4116,South Platte
+2044,Yuma,10.7462,South Platte
+2045,Adams,63.3472,Metro
+2045,Arapahoe,38.1294,Metro
+2045,Boulder,32.7769,South Platte
+2045,Broomfield,40.8525,Metro
+2045,Cheyenne,-8.5632,"South Platte, Arkansas"
+2045,Clear Creek,25.7173,South Platte
+2045,Denver,33.9367,Metro
+2045,Douglas,42.0598,Metro
+2045,Elbert,131.3586,"Metro, Arkansas"
+2045,Gilpin,10.0001,South Platte
+2045,Jefferson,18.9976,Metro
+2045,Kit Carson,19.7372,South Platte
+2045,Larimer,49.1031,South Platte
+2045,Lincoln,43.2754,"Arkansas, South Platte"
+2045,Logan,28.0267,South Platte
+2045,Morgan,40.7403,South Platte
+2045,Park,36.2568,South Platte
+2045,Phillips,1.4093,South Platte
+2045,Sedgwick,-4.1722,South Platte
+2045,Teller,31.0044,"Arkansas, South Platte"
+2045,Washington,-0.5700,South Platte
+2045,Weld,117.9545,South Platte
+2045,Yuma,11.0366,South Platte
+2046,Adams,65.6200,Metro
+2046,Arapahoe,38.3952,Metro
+2046,Boulder,33.7503,South Platte
+2046,Broomfield,40.5739,Metro
+2046,Cheyenne,-9.1565,"South Platte, Arkansas"
+2046,Clear Creek,26.8878,South Platte
+2046,Denver,34.3020,Metro
+2046,Douglas,42.6430,Metro
+2046,Elbert,135.2516,"Metro, Arkansas"
+2046,Gilpin,10.2362,South Platte
+2046,Jefferson,19.2284,Metro
+2046,Kit Carson,20.7168,South Platte
+2046,Larimer,50.8034,South Platte
+2046,Lincoln,44.8514,"Arkansas, South Platte"
+2046,Logan,28.8912,South Platte
+2046,Morgan,42.6184,South Platte
+2046,Park,36.2061,South Platte
+2046,Phillips,1.5454,South Platte
+2046,Sedgwick,-4.0185,South Platte
+2046,Teller,31.7917,"Arkansas, South Platte"
+2046,Washington,-0.9037,South Platte
+2046,Weld,122.5132,South Platte
+2046,Yuma,11.3204,South Platte
+2047,Adams,67.8929,Metro
+2047,Arapahoe,38.6239,Metro
+2047,Boulder,34.7108,South Platte
+2047,Broomfield,40.2878,Metro
+2047,Cheyenne,-9.7485,"South Platte, Arkansas"
+2047,Clear Creek,28.0658,South Platte
+2047,Denver,34.6388,Metro
+2047,Douglas,43.1567,Metro
+2047,Elbert,139.1044,"Metro, Arkansas"
+2047,Gilpin,10.4655,South Platte
+2047,Jefferson,19.4522,Metro
+2047,Kit Carson,21.7236,South Platte
+2047,Larimer,52.4968,South Platte
+2047,Lincoln,46.4199,"Arkansas, South Platte"
+2047,Logan,29.7500,South Platte
+2047,Morgan,44.5108,South Platte
+2047,Park,35.9444,South Platte
+2047,Phillips,1.6980,South Platte
+2047,Sedgwick,-3.8557,South Platte
+2047,Teller,32.5885,"Arkansas, South Platte"
+2047,Washington,-1.2244,South Platte
+2047,Weld,127.0886,South Platte
+2047,Yuma,11.5967,South Platte
+2048,Adams,70.1660,Metro
+2048,Arapahoe,38.8181,Metro
+2048,Boulder,35.6600,South Platte
+2048,Broomfield,39.9964,Metro
+2048,Cheyenne,-10.3367,"South Platte, Arkansas"
+2048,Clear Creek,29.2493,South Platte
+2048,Denver,34.9463,Metro
+2048,Douglas,43.6054,Metro
+2048,Elbert,142.9211,"Metro, Arkansas"
+2048,Gilpin,10.6869,South Platte
+2048,Jefferson,19.6701,Metro
+2048,Kit Carson,22.7632,South Platte
+2048,Larimer,54.1835,South Platte
+2048,Lincoln,47.9800,"Arkansas, South Platte"
+2048,Logan,30.6024,South Platte
+2048,Morgan,46.4180,South Platte
+2048,Park,35.6768,South Platte
+2048,Phillips,1.8617,South Platte
+2048,Sedgwick,-3.6857,South Platte
+2048,Teller,33.3921,"Arkansas, South Platte"
+2048,Washington,-1.5352,South Platte
+2048,Weld,131.6809,South Platte
+2048,Yuma,11.8639,South Platte
+2049,Adams,72.4411,Metro
+2049,Arapahoe,38.9826,Metro
+2049,Boulder,36.6025,South Platte
+2049,Broomfield,39.7021,Metro
+2049,Cheyenne,-10.9162,"South Platte, Arkansas"
+2049,Clear Creek,30.4402,South Platte
+2049,Denver,35.2225,Metro
+2049,Douglas,43.9950,Metro
+2049,Elbert,146.7088,"Metro, Arkansas"
+2049,Gilpin,10.9055,South Platte
+2049,Jefferson,19.8858,Metro
+2049,Kit Carson,23.8415,South Platte
+2049,Larimer,55.8661,South Platte
+2049,Lincoln,49.5323,"Arkansas, South Platte"
+2049,Logan,31.4506,South Platte
+2049,Morgan,48.3422,South Platte
+2049,Park,35.4082,South Platte
+2049,Phillips,2.0343,South Platte
+2049,Sedgwick,-3.5068,South Platte
+2049,Teller,34.2079,"Arkansas, South Platte"
+2049,Washington,-1.8383,South Platte
+2049,Weld,136.2922,South Platte
+2049,Yuma,12.1244,South Platte
+2050,Adams,74.7193,Metro
+2050,Arapahoe,39.1222,Metro
+2050,Boulder,37.5411,South Platte
+2050,Broomfield,39.4060,Metro
+2050,Cheyenne,-11.4860,"South Platte, Arkansas"
+2050,Clear Creek,31.6402,South Platte
+2050,Denver,35.4664,Metro
+2050,Douglas,44.3310,Metro
+2050,Elbert,150.4703,"Metro, Arkansas"
+2050,Gilpin,11.1260,South Platte
+2050,Jefferson,20.1022,Metro
+2050,Kit Carson,24.9615,South Platte
+2050,Larimer,57.5458,South Platte
+2050,Lincoln,51.0774,"Arkansas, South Platte"
+2050,Logan,32.2961,South Platte
+2050,Morgan,50.2849,South Platte
+2050,Park,35.1436,South Platte
+2050,Phillips,2.2142,South Platte
+2050,Sedgwick,-3.3197,South Platte
+2050,Teller,35.0373,"Arkansas, South Platte"
+2050,Washington,-2.1357,South Platte
+2050,Weld,140.9237,South Platte
+2050,Yuma,12.3794,South Platte

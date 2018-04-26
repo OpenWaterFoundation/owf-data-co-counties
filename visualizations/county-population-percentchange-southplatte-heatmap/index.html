@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Percent Change in Annual Population since 2017 for Counties in the South Platte and Metro Basins</title>
+  <!-- Javascript -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="javascript/highcharts.js"></script>
+  <script src="javascript/heatmap.js"></script>
+  <script src="javascript/exporting.js"></script>
+
+</head>
+
+<body>
+<div id="container" style="width:100%; height:1000px;"></div>
+<script>
+    // Global Variables used to set colors for legend 
+    var min = 0;
+    var max = 0;
+
+  // jQuery command to get/read file from csv
+  $.get("county-annual-population-percentchange-southplatte.csv",function(data) {
+    // Array containing list of years (YYYY)
+    var years = new Array();
+
+    // Array containing list of County Names
+    var counties = new Array();
+    
+    // Split each line (row) of data
+    var lines = data.split('\n'),
+      series = {
+        turboThreshold: 100000,
+        data: [],
+        borderWidth: 0,
+      };
+    
+      // Iterate over the lines and add categories or series
+      $.each(lines, function(lineNo, line) {  
+        if (lineNo > 0) 
+        {
+          var items = line.split(',');
+          var year = Number(items[0].toLocaleString('en-US',{minimumFractionDigits: 0}));
+          var county = items[1];
+
+          if(items[2] > max)
+          {
+            max = items[2];
+          }
+
+          if(counties.length == 0)
+          {
+            counties.push(county);
+          }
+          else
+          {
+            if(!counties.includes(county))
+            {
+              counties.push(county);
+            }
+          }
+
+          if(years.length == 0)
+          {
+            years.push(year);
+          }
+          else
+          {
+            if(!years.includes(year))
+            {
+              years.push(Number(year));
+            }
+          }
+        }   
+      });
+
+      $.each(lines, function(lineNo, line) {
+        if(lineNo > 0)
+        {
+          if(line == "")
+          {
+            return;
+          }
+          var items = line.split(',');
+          var year = Number(items[0].toLocaleString('en-US',{minimumFractionDigits: 0}));
+          var county = items[1];
+          var data;
+          if(items[2].trim() == "")
+          {
+            data = null;
+          }
+          else
+          {
+            data = Number(items[2].toLocaleString('en-US',{minimumFractionDigits: 0}));
+          }
+          for(var index = 0; index < years.length; index++)
+          {
+            for(var index2 = 0; index2 < counties.length; index2++)
+            {
+              if(year == years[index] && county == counties[index2])
+              {
+                series.data.push([index,index2,data]);
+              }
+            }
+          }
+        }
+      });
+
+    // Create new highcharts heatmap
+    $('#container').highcharts({
+
+    chart: {
+      type: 'heatmap' // type of chart to be created 
+    },
+
+    legend: {
+                title: {
+                    text: 'Percent Change',
+                    style: {
+                        color: (Highcharts.theme && Highcharts.theme.textColor) || 'black'
+                    }
+                },
+                align: 'right',
+                verticalAlign: 'middle',
+                layout: 'vertical',
+                valueDecimals: 0,
+                backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || 'rgba(255, 255, 255, 0.85)',
+                symbolRadius: 0,
+                symbolHeight: 14
+            },
+
+            colorAxis: {
+                dataClasses: [{ 
+					from: (-20),
+					to: (-10.0001), color:"#2171b5", name:"-20 to -10"
+                }, {
+					from: (-10),
+					to: (-5.0001), color:"#6baed6", name:"-10 to -5"
+                }, {
+					from: (-5),
+					to: (-0.0001), color:"#c6dbef", name:"-5 to 0"
+                }, {
+					from: (0),
+					to: (0.9999), color:"#FFFFCC", name:"0 to 1"
+                }, {
+                    from: (1),
+                    to: (9.9999), color:"#FFEDA0", name:"1 to 10"
+                }, {
+                    from: (10),
+                    to: (19.9999), color:"#FED976", name:"10 to 20"
+                }, {
+                    from: (20),
+                    to: (29.9999), color:"#FEB24C", name:"20 to 30"
+                }, {
+                    from: (30),
+                    to: (39.9999), color:"#FD8D3C", name:"30 to 40"
+				}, {
+                    from: (40),
+                    to: (49.9999), color:"#FC4E2A", name:"40 to 50"
+				}, {
+                    from: (50),
+                    to: (99.9999), color:"#E31A1C", name:"50 to 100"
+				}, {
+                    from: (100),
+                    color:"#B10026", name:">100"	
+                }]
+            },
+
+    title: {
+      text: 'Percent Change since 2017 in the Annual Population of Counties in the South Platte and Metro Basins'  // title of chart
+    },
+
+//	subtitle: {
+//      text: 'Annual Population Numbers from the Colorado Department of Local Affairs'
+//    },
+	
+    nullColor: '#FFFFF',
+    tooltip: {  // control what the tooltip will display when a user hovers over a point on the heatmap
+      formatter: function()
+      {
+        return '<b>' + this.series.yAxis.categories[this.point.y] + ' County, ' + this.series.xAxis.categories[this.point.x] + '</b><br>' + this.point.value + ' percent';
+      }
+    },
+
+    yAxis: {
+      categories: counties,  // Array of county names
+	  reversed: true,
+      title: {
+        text: 'County' // Y axis title 
+      }
+    },
+
+    xAxis: {
+      categories: years, // Array of years
+      title: {
+        text: 'Year' // x axis title
+      }
+     },
+     plotOptions: {
+      heatmap: {
+        nullColor: '#000000'
+      }
+
+     },
+    series: [series] // array of series (data points)
+
+  });
+});
+</script>
+
+</body>
+</html>
