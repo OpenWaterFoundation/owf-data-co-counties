@@ -1,0 +1,24 @@
+{
+  "title": "Colorado Counties",
+  "description": "Colorado counties.",
+  "identifier": "owf-data-co-counties",
+  "landingPage": "https://data.openwaterfoundation.org/state/co/owf/counties/",
+  "issued": "2022-08-24",
+  "keyword": [
+    "colorado",
+    "counties"
+  ],
+  "publisher": {
+    "name": "Open Water Foundation",
+    "mbox": "info@openwaterfoundation.org"
+  },
+  "distribution": [
+    {
+      "accessURL": "",
+      "byteSize": null,
+      "description": "Resource locator",
+      "format": "application/geo+json",
+      "title": "Colorado Counties"
+    }
+  ]
+}
