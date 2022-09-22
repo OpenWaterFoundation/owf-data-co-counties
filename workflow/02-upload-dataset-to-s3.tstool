@@ -9,7 +9,7 @@ SetProperty(PropertyName="InsertsFolder",PropertyType=String,PropertyValue="../.
 # Upload the files:
 # - geojson file output by GeoProcessor
 # - dataset metadata files needed for landing page
-AwsS3(S3Command="UploadObjects",Region="us-west-2",Bucket="data.openwaterfoundation.org",UploadFiles="../data/co-counties.geojson:state/co/owf/counties/co-counties.geojson,dataset.json:state/co/owf/counties/dataset.json,dataset.png:state/co/owf/counties/dataset.png,dataset-details.md:state/co/owf/counties/dataset-details.md")
+AwsS3(S3Command="UploadObjects",Region="us-west-2",Bucket="data.openwaterfoundation.org",UploadFiles="../data/co-counties.geojson:state/co/owf/counties/co-counties.geojson,dataset.json:state/co/owf/counties/dataset.json,dataset.png:state/co/owf/counties/dataset.png,dataset-details.md:state/co/owf/counties/dataset-details.md,../data/co-counties.xlsx:state/co/owf/counties/co-counties.xlsx,../data/co-counties.csv:state/co/owf/counties/co-counties.csv")
 #
 # Invalidate so that files are available on the CDN as soon as possible.
 # AwsCloudFront(CloudFrontCommand="ListDistributions",Region="aws-global",Comment="*data.openwaterfoundation.org*",OutputTableID="Distributions")
